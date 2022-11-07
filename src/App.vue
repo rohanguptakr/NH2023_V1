@@ -1,20 +1,24 @@
 <template>
   <NavbarComponent />
+  <TimelineComponent />
   <TeamsComponent />
   <FooterComponent />
 </template>
 
 <script>
 import NavbarComponent from "./components/NavbarComponent.vue";
-import FooterComponent from "./components/FooterComponent.vue";
 import TeamsComponent from "./components/TeamsComponent.vue";
+import TimelineComponent from "./components/TimelineComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
+
 
 export default {
   name: 'App',
   components: {
     NavbarComponent,
     FooterComponent,
-    TeamsComponent
+    TeamsComponent,
+    TimelineComponent
   }
 }
 </script>

@@ -200,6 +200,7 @@
     font-weight: 700;
     font-size: 45px;
     color: #ecf27c;
+    position: relative;
 }
 
 .section-team .single-person {
