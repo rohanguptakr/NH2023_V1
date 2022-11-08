@@ -2,6 +2,7 @@
   <NavbarComponent />
   <TimelineComponent />
   <TeamsComponent />
+  <TracksComponent />
   <FooterComponent />
 </template>
 
@@ -10,16 +11,18 @@ import NavbarComponent from "./components/NavbarComponent.vue";
 import TeamsComponent from "./components/TeamsComponent.vue";
 import TimelineComponent from "./components/TimelineComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
+import TracksComponent from "./components/TracksComponent.vue";
 
 
 export default {
   name: 'App',
   components: {
     NavbarComponent,
-    FooterComponent,
+    TimelineComponent,
+    TracksComponent,
     TeamsComponent,
-    TimelineComponent
-  }
+    FooterComponent
+}
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
 <h3>Timeline</h3>
 <div class="cont">
-        <div class="wrapper">
+        <div class="wrapper-timeline">
           <h1>Day 1</h1>
           <ul class="sessions">
             <li>
@@ -64,7 +64,7 @@ ul, li {
   margin: 0 auto;
 }
 
-.wrapper {
+.wrapper-timeline {
   background: #ecf27c;
   padding: 2rem;
   border-radius: 15px;
