@@ -1,0 +1,25 @@
+<svg width="101" height="102" viewBox="0 0 101 102" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+		path {
+			fill: #ecf27c;
+		}
+		@media ( prefers-color-scheme: light ) {
+			path {
+				fill: #080518;
+			}
+		}
+</style>
+
+<g clip-path="url(#clip0_111_2)">
+<path d="M47.5 100.4L33.8 93L9.5 43.8V79.8L0.5 75V28L13.3 34.1L36.5 79.3V44.8L47.5 50V100.4Z" fill="#080518" stroke="#ECF27C" stroke-miterlimit="10"/>
+<path d="M52.5 99.9V50.4L63.5 44.9V64.8L89.5 51.2V32.4L99.5 27.4L100.1 74.4L90.5 79.8V60.5L63.5 74.3V93.8L52.5 99.9Z" fill="#080518" stroke="#ECF27C" stroke-miterlimit="10"/>
+<path d="M50.3 0.5L97.8 19.3C99.1 19.9 98.4 20.6 97.2 19.3H79C77.1 20.6 75.9 20.6 74 20L50.3 10L26.6 19.4C25.3 20 23.5 20 22.2 20.4H4.00002C2.70002 20.1 2.10002 19.4 3.40002 18.8L50.3 0.5Z" fill="#080518" stroke="#ECF27C" stroke-miterlimit="10"/>
+<path d="M50.3 47.4L2.19998 24.9C0.899977 24.3 2.19998 23.6 3.49998 23.2H21.6C23.5 23.6 24.7 24.2 26 24.9L50.4 35.5L74.8 24.9C76.1 24.3 77.9 24.3 79.2 24.2H97.3C98.6 24.2 99.8 24.9 98.6 25.5L50.3 47.4Z" fill="#080518" stroke="#ECF27C" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_111_2">
+<rect width="100.6" height="101.3" fill="white"/>
+</clipPath>
+</defs>
+</svg>
