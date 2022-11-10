@@ -4,6 +4,7 @@
   <TimelineComponent />
   <TeamsComponent />
   <TracksComponent />
+  <PrizesComponent />
   <FaqComponent />
   <FooterComponent />
 </template>
@@ -16,6 +17,7 @@ import FooterComponent from "./components/FooterComponent.vue";
 import TracksComponent from "./components/TracksComponent.vue";
 import FaqComponent from "./components/FaqComponent.vue";
 import AboutComponent from "./components/AboutComponent.vue";
+import PrizesComponent from "./components/PrizesComponent.vue";
 
 
 export default {
@@ -27,7 +29,8 @@ export default {
     TeamsComponent,
     FooterComponent,
     FaqComponent,
-    AboutComponent
+    AboutComponent,
+    PrizesComponent
 }
 }
 </script>

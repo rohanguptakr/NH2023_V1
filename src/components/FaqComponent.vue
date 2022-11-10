@@ -104,14 +104,14 @@
 <style>
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 .faq{
-    color:#ecf27c;
+    color:#080518;
     font-weight: bold;
     text-align: left;
     padding-left: 10rem;
 }
 .maindiv{
   font-family: 'Roboto', sans-serif;
-  background-color:#080518;
+  background-color: #fff;
   color:#080518;
   padding-top: 40px;
   padding-bottom: 40px;

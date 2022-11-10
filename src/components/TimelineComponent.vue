@@ -1,141 +1,189 @@
 <template>
-<h3>Timeline</h3>
-<div class="cont">
-        <div class="wrapper-timeline">
-          <h1>Day 1</h1>
-          <ul class="sessions">
-            <li>
-              <div class="time">09:00 AM</div>
-              <p>Reporting and Registration</p>
-            </li>
-            <li>
-              <div class="time">11:00 AM</div>
-              <p>Inaugration Ceremony</p>
-            </li>
-            <li>
-              <div class="time">11:40</div>
-              <p>Hack Begins</p>
-            </li>
-            <li>
-              <div class="time">7:00 PM - 8:00PM</div>
-              <p>Judging Round 1</p>
-            </li>
-          </ul>
-          <h1>Day 2</h1>
-          <ul class="sessions">
-             <li>
-              <div class="time">11:00 AM - 12:00 PM</div>
-              <p>Judging Round 2</p>
-            </li>
-            <li>
-              <div class="time">4:00 - 6:00PM</div>
-              <p>Final Judging Round,Closing ceremony and Prize Distribution</p>
-            </li>
-          </ul>
-        </div>
-      </div> 
+  <body>
+  <section class="intro">
+        <h1 class="container">Timeline</h1>
+  </section>
+    
+    <section class="timeline">
+      <ul>
+        <li>
+          <div>
+            <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+          </div>
+        </li>
+      </ul>
+    </section>
+</body>
 </template>
 
-
-
 <style>
-
-h3{
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    margin-top: 100px;
-    font-weight : bold;
-    font-size: 50px;
-    color: #080518;
-    position: relative;
+  *,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-ul, li {
-  list-style: none;
-  padding: 0;
+.container{
+  padding-left: 10rem;
+  font-weight: 900;
 }
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.cont {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-  padding: 3rem 0;
-  /* background-color: #080518;*/
-  margin: 0 auto;
+.timeline ul {
+background: #fff;
+padding: 50px 0;
 }
 
-.wrapper-timeline {
-  background: #ecf27c;
-  padding: 2rem;
-  border-radius: 15px;
-  position: relative;
+.timeline ul li {
+list-style-type: none;
+position: relative;
+width: 6px;
+margin: 0 auto;
+padding-top: 50px;
+background: #080518;
 }
 
-h1 {
-  font-size: 1.1rem;
-  font-family: sans-serif;
+.timeline ul li::after {
+content: "";
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background: #ecf27c;
+z-index: 1;
 }
 
-.sessions {
-  margin-top: 2rem;
-  border-radius: 12px;
-  position: relative;
+.timeline ul li div {
+position: relative;
+bottom: 0;
+width: 400px;
+padding: 15px;
+background: #ecf27c;
 }
 
-.sessions li {
-  padding-bottom: 1.5rem;
-  border-left: 1px solid #080518;
-  position: relative;
-  padding-left: 20px;
-  margin-left: 0px;
-}
-li:last-child {
-  border: 0px;
-  padding-bottom: 0;
-}
-.sessions li:before {
-  content: "";
-  width: 15px;
-  height: 15px;
-  background: white;
-  border: 1px solid #4e5ed3;
-  box-shadow: 3px 3px 0px #080518;
-  border-radius: 50%;
-  position: absolute;
-  left: -10px;
-  top: 0px;
+.timeline ul li div::before {
+content: "";
+position: absolute;
+bottom: 7px;
+width: 0;
+height: 0;
+border-style: solid;
 }
 
-.time {
-  color: #2a2839;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+.timeline ul li:nth-child(odd) div {
+left: 45px;
 }
-@media screen and (min-width: 601px) {
-  .time {
-    font-size: 0.9rem;
-  }
-  .cont{
-    margin : 0 10px;
-  }
+
+.timeline ul li:nth-child(odd) div::before {
+left: -15px;
+border-width: 8px 16px 8px 0;
+border-color: transparent #ecf27c transparent transparent;
 }
+
+.timeline ul li:nth-child(even) div {
+left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+right: -15px;
+border-width: 8px 0 8px 16px;
+border-color: transparent transparent transparent #ecf27c;
+}
+
+time {
+display: block;
+font-size: 1.2rem;
+font-weight: bold;
+margin-bottom: 8px;
+}
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+.timeline ul li div {
+  width: 250px;
+}
+.timeline ul li:nth-child(even) div {
+  left: -289px;
+  /*250+45-6*/
+}
+}
+
 @media screen and (max-width: 600px) {
-  .time {
-    margin-bottom: 0.3rem;
-    font-size: 0.85rem;
-  }
+.timeline ul li {
+  margin-left: 20px;
 }
-
-p {
-  color: #4f4f4f;
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin-top: 0.4rem;
+.timeline ul li div {
+  width: calc(100vw - 91px);
 }
-@media screen and (max-width: 600px) {
-  p {
-    font-size: 0.9rem;
-  }
+.timeline ul li:nth-child(even) div {
+  left: 45px;
 }
-
+.timeline ul li:nth-child(even) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ecf27c transparent transparent;
+}
+}
 </style>
