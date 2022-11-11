@@ -40,9 +40,20 @@
         position: relative;
         top : -80px;
      } */
-        .para{
-        position: relative;
-        top : 100px;
+        .p{
+        padding-top: 15%;
+    }
+    .h3{
+        padding-bottom: 15%;
+    }
+     }
+
+     @media (max-width: 700px) {
+        .p{
+        padding-top: 20%;
+    }
+    .h3{
+        padding-bottom: 20%;
     }
      }
     

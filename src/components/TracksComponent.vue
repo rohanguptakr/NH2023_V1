@@ -144,7 +144,7 @@
             width: 50%;
         }
         .wrapper .header{
-            font-size: 16px;
+            font-size: 30px;
             height: 60px;
         }
     }
@@ -154,7 +154,7 @@
             width: 100%;
         }
         .wrapper .header{
-            font-size: 14px;
+            font-size: 30px;
         }
     }
     

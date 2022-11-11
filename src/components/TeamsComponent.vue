@@ -96,10 +96,7 @@ img {
     max-height: 100%;
 	display: block;
 }
-/* body {
-	font-family: 'Trykker', serif;
-	padding: 1em;
-	} */
+
 figure {
 	width: 400px;
 	margin: 10px auto 0;
@@ -141,7 +138,7 @@ figure p a {
     figure {
         width: 300px;
         height: 300px;
-        margin: 10px auto 0;
+		margin-bottom: 20%;
 }
     figure .carousel {
         width: 300px;

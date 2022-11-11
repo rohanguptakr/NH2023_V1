@@ -261,7 +261,6 @@ nav.show {
     margin: 0;
     position: absolute;
     top: 30%;
-    left: -10%;
   }
   nav.show {
     width: 50%;
