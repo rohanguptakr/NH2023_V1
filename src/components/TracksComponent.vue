@@ -68,7 +68,8 @@
     
     .wrapper {
         background: #080518;
-        padding: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         position: relative;
     }
     .wrapper .header{
@@ -77,9 +78,9 @@
         color: #ecf27c;
         display: flex;
         align-items: center;
-        font-size: 40px;
         font-weight: 900;
-        padding-left: 8rem;
+        font-size: 30px;
+        padding-left: 10rem;
     }
     
     .cards_wrap{
@@ -114,7 +115,8 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-      text-align: center;
+        text-align: center;
+        padding-top: 2rem;
     }
     
     .cards_wrap .card_item .film{

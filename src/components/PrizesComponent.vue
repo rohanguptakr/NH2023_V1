@@ -2,7 +2,7 @@
     <h1 class="prize">Prizes</h1>
     <div class="wrapper-prizes">
         <div class="card-prizes" onclick="this.classList.toggle('expanded')">
-        <img :src="require('D:/NH2023_v1_demo/src/assets/1stPlace.png')">
+        <img :src="require('C:/Git upload/NH2023_V1/src/assets/1stPlace.png')">
         <div class="text1">
             <div class="text-content-prizes">
             <h1 class="title">₹ 40,000</h1>
@@ -11,7 +11,7 @@
             <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ecf27c" stroke-width="5"/></svg>
         </div>
         <div class="card-prizes" onclick="this.classList.toggle('expanded')">
-        <img :src="require('D:/NH2023_v1_demo/src/assets/2ndPlace.png')">
+        <img :src="require('C:/Git upload/NH2023_V1/src/assets/2ndPlace.png')">
             <div class="text2">
             <div class="text-content-prizes">
             <h1 class="title">₹ 20,000</h1>
@@ -20,7 +20,7 @@
             <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ecf27c" stroke-width="5"/></svg>
         </div>
         <div class="card-prizes" onclick="this.classList.toggle('expanded')">
-        <img :src="require('D:/NH2023_v1_demo/src/assets/3rdPlace.png')">
+        <img :src="require('C:/Git upload/NH2023_V1/src/assets/3rdPlace.png')">
             <div class="text2">
             <div class="text-content-prizes">
             <h1 class="title">₹ 15,000</h1>

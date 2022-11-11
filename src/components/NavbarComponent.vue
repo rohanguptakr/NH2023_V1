@@ -78,7 +78,7 @@ header {
 
 .icon-1, .icon-2, .icon-3 {
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: 50%;
   width: 32px;
   height: 3px;
@@ -108,7 +108,8 @@ header {
   cursor: pointer;
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
-  background: rgba(255, 255, 255, 0.2);
+  background: #ecf27c;
+  opacity: 0.6;
 }
 .hamburger-icon:hover {
   transform: scale(1.2);

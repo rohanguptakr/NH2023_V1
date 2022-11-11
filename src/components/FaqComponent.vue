@@ -151,7 +151,9 @@ h1{
   opacity:0.7;
 }
 .expanded{
-  background-color:#f5f5f5;
+  color: #ecf27c;
+  background-color:#080518;
+  border-bottom:solid 1px #ecf27c;
   transition: all .3s ease-in-out;
 }
 .question{
