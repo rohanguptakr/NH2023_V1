@@ -1,5 +1,5 @@
 <template>
-    <h3 class="" style="color: white; margin-top:1%; font-size:1rem;backgroundColor:#080518;">
+    <h3 class="" style="color: white; margin-top:1%; font-size:1rem;">
         Hackathon by The Dept. of CSE, NMIT 
     </h3>
     <div class="pos-for-button">
@@ -13,15 +13,19 @@
             55.41 0 0 1 50.58 55.34z"></path>
       </svg>  Apply with Devfolio</button>
     </div>
+    <div class="pos-for-button-2">
+        <button class="glow-on-hover" type="button">
+
+View Results</button>
+    </div>
 </template>
 
 
 <style>
     h3{
-        position: absolute;
-        top: 70%;
+        position: relative;
+        top: 29vh;
         left: 50%;
-        width: 100%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
@@ -34,6 +38,7 @@
         text-align: center;    
         color: black;
         background-color: white;
+        z-index : 100;
     }
     .logo-dev{
         height : 20px;
@@ -41,8 +46,14 @@
 
     .pos-for-button{
         position: absolute;
-        top: 90%;
-        left:41%;
+        top: 50vh;
+        left:43vw;
+    }
+
+    .pos-for-button-2{
+        position: absolute;
+        top: 40vh;
+        left:43vw;
     }
 .glow-on-hover {
     text-decoration: none;
@@ -104,15 +115,18 @@
 }
     @media (max-width: 480px) {
         h3{
-            top:65%
+            top:55vw
         }
-        button{
+        .pos-for-button{
         position: absolute;
-        top: 75%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -50%);
-        text-align: center;
+        top: 50vh;
+        left:22vw;
+    }
+
+    .pos-for-button-2{
+        position: absolute;
+        top: 40vh;
+        left:22vw;
     }
     }
 </style>

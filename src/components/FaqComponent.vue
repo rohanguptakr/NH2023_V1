@@ -153,7 +153,7 @@ h1{
 .expanded{
   color: #ecf27c;
   background-color:#080518;
-  border-bottom:solid 1px #ecf27c;
+  border-bottom:solid#ecf27c;
   transition: all .3s ease-in-out;
 }
 .question{
@@ -197,6 +197,9 @@ h1{
   -ms-transform: rotate(-224deg);
   -webkit-transform: rotate(-224deg);
   transform: rotate(-224deg);
+  border-left: 2px solid #ecf27c;
+  border-bottom: 2px solid #ecf27c; 
+  color: #ecf27c;
 }
 @media only screen and (max-width: 480px) {
   .faq-t{display:none;}

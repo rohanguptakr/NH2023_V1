@@ -45,6 +45,8 @@
     }
     .h3{
         padding-bottom: 15%;
+        position: relative;
+        left: 0px;
     }
      }
 
