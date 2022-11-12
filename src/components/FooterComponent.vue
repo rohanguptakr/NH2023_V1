@@ -1,5 +1,5 @@
 <template>
-     <div class="footer-basic">
+     <div class="footer-basic" id="contact">
         
         <footer>
             <div class="social"><a href="https://www.instagram.com/nmit_hacks/" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href="https://twitter.com/NMIT_Hacks" target="_blank"><i class="fa-brands fa-twitter"></i></a><a href="https://www.facebook.com/nmit.hacks.50" target="_blank"><i class="fa-brands fa-facebook"></i></a><a href="https://www.linkedin.com/in/nmit-hacks-8082531bb/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>

@@ -1,6 +1,6 @@
 <template>
   <body>
-  <section class="intro">
+  <section class="intro" id="time">
         <h1 class="container">Timeline</h1>
   </section>
     

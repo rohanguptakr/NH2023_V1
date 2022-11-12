@@ -1,5 +1,5 @@
 <template> 
-    <div class="wrapper">
+    <div class="wrapper" id="tracks">
         <div class="header">Tracks</div>
     
         <div class="cards_wrap">

@@ -1,17 +1,17 @@
 <template>
 	<h1 class="team">Teams</h1>
-    <figure>
-        <div class="carousel dissolve">
+    <figure class="frame">
+        <div class="carousel dissolve" id="teams">
           <div class="items">
-            <img class="item" :src="require('C:/Users/Asus/Documents/GitHub/NH2023_V1/src/assets/ArchitaNew.png')" alt="Random">
-            <img class="item" :src="require('C:/Users/Asus/Documents/GitHub/NH2023_V1/src/assets/AdityaNew.png')" alt="Seven to ten at Leeds &amp; Holbeck">
-            <img class="item" :src="require('C:/Users/Asus/Documents/GitHub/NH2023_V1/src/assets/ArchitaNew.png')" alt="Banksy">
-            <img class="item" :src="require('C:/Users/Asus/Documents/GitHub/NH2023_V1/src/assets/ArchitaNew.png')" alt="Bristol autumn">
-            <img class="item" :src="require('C:/Users/Asus/Documents/GitHub/NH2023_V1/src/assets/ArchitaNew.png')" alt="Bristol autumn">
-            <img class="item" :src="require('C:/Users/Asus/Documents/GitHub/NH2023_V1/src/assets/ArchitaNew.png')" alt="Bristol autumn">
+            <img class="item" :src="require('C:/Git upload/NH2023_V1/src/assets/ArchitaNew.png')" alt="Random">
+            <img class="item" :src="require('C:/Git upload/NH2023_V1/src/assets/AdityaNew.png')" alt="Seven to ten at Leeds &amp; Holbeck">
+            <img class="item" :src="require('C:/Git upload/NH2023_V1/src/assets/ArchitaNew.png')" alt="Banksy">
+            <img class="item" :src="require('C:/Git upload/NH2023_V1/src/assets/ArchitaNew.png')" alt="Bristol autumn">
+            <img class="item" :src="require('C:/Git upload/NH2023_V1/src/assets/ArchitaNew.png')" alt="Bristol autumn">
+            <img class="item" :src="require('C:/Git upload/NH2023_V1/src/assets/ArchitaNew.png')" alt="Bristol autumn">
            </div>
         </div>
-        </figure>
+    </figure>
 </template>
 
 <script>
@@ -31,7 +31,7 @@
 	margin-top: 20vh;
     margin-bottom: 20vh;
 	width: 400px;
-	height: 400px;
+	height: 500px;
 	position: relative;
 	overflow: hidden;
 }

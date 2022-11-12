@@ -1,6 +1,6 @@
 <template>
     <h1 class="prize">Prizes</h1>
-    <div class="wrapper-prizes">
+    <div class="wrapper-prizes" id="prizes">
         <div class="card-prizes" onclick="this.classList.toggle('expanded')">
         <img :src="require('C:/Git upload/NH2023_V1/src/assets/1stPlace.png')">
         <div class="text1">

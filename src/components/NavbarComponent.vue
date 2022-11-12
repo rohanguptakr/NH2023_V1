@@ -1,5 +1,5 @@
 <template>
-  <div class="star-container">
+  <div class="star-container" id="home">
     <div id="stars"></div>
 <div id="stars2"></div>
 <div id="stars3"></div>
@@ -15,14 +15,15 @@
       <nav id="nav" ref="nav">
          
         <ul>
-          <li>Home</li>
-          <li>Tracks</li>
-          <li>Prizes</li>
-          <li>Schedule</li>
-          <li>Sponsors</li>
-          <li>Teams</li>
-          <li>FAQ</li>
-          <li>Contact Us</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tracks">Tracks</a></li>
+          <li><a href="#prizes">Prizes</a></li>
+          <li><a href="#time">Timeline</a></li>
+          <li><a href="#home">Sponsors</a></li>
+          <li><a href="#teams">Teams</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       
       </nav>
