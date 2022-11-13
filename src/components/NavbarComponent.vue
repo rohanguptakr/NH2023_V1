@@ -36,14 +36,12 @@
 </template>
 
 <script>
-  //  import DevfolioComponent from "./DevfolioComponent.vue";
 import DevfolioComponent from "./DevfolioComponent.vue";
 
 import SvgComponent from "./SvgComponent.vue";
     export default {
       name : "NavbarComponent",
       components: {
-    // DevfolioComponent,
     DevfolioComponent,
     SvgComponent
 }
@@ -188,11 +186,7 @@ nav.show {
 .logo{
   height : 720px;
 }
-     /* html{
-  height: 100vh;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #080518 100%);
-  overflow: hidden;
-} */
+
 
 #stars {
   width: 1px;
