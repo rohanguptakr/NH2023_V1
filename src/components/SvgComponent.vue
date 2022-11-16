@@ -28,10 +28,9 @@
   </clipPath>
   </defs>
   </svg>
-  </template>
+</template>
   
-  
-  <script>
+<script>
   import anime from 'animejs';                      
   export default {
       data: () => {
@@ -60,8 +59,7 @@
   </script>
   
   <style>
-
-    .content {
+  .content {
   position: absolute;
   top: 0%;
   left: 50%;

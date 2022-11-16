@@ -117,6 +117,7 @@ on hackathon@nmit.ac.in
   color:#080518;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-bottom: 0;
 }
 main{
   display:block;

@@ -8,62 +8,62 @@
       <ul>
         <li>
           <div>
-            <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            <p class="day">Day 1</p><time>9:00 AM</time><p class="events">Reporting and Registration</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+            <time>11:00 AM</time><p class="events">Inaugration ceremony</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+            <time>11:40 AM</time><p class="events">Hack begins!!!</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+            <time>1:00 PM - 1:45PM</time><p class="events">Lunch</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+            <time>4:30 PM - 5:00 PM</time><p class="events">Snacks</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+            <time>7:00 PM - 8:00 PM</time><p class="events">Judging round 1</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+            <time>8:15 PM - 9:00 PM</time><p class="events">Dinner</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
+            <p class="day">Day 2</p><time>1:30 AM - 2:30 AM</time><p class="events">Midnight surprise and snacks</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
+            <time>7:30 AM -8:30 AM</time><p class="events">Breakfast</p>
           </div>
         </li>
         <li>
           <div>
-            <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+            <time>11:00 AM - 12:00 PM</time><p class="events">Judging round 2</p>
           </div>
         </li>
         <li>
           <div>
-            <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+            <time>12:15 PM - 1:00 PM</time>Lunch
           </div>
         </li>
         <li>
           <div>
-            <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+            <time>4:00 PM - 6:00 PM</time><p class="events">Final judging round, closing ceremony and prize distribution</p>
           </div>
         </li>
       </ul>
@@ -83,6 +83,10 @@ box-sizing: border-box;
   padding-left: 10rem;
   font-weight: 900;
 }
+
+.intro{
+  margin-top: 8vh;
+}
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -96,7 +100,8 @@ list-style-type: none;
 position: relative;
 width: 6px;
 margin: 0 auto;
-padding-top: 50px;
+padding-top: 0px;
+font-size:0.6rem;
 background: #080518;
 }
 
@@ -116,7 +121,7 @@ z-index: 1;
 .timeline ul li div {
 position: relative;
 bottom: 0;
-width: 400px;
+width: 200px;
 padding: 15px;
 background: #ecf27c;
 }
@@ -130,6 +135,10 @@ height: 0;
 border-style: solid;
 }
 
+.events{
+  font-size:0.8rem;
+}
+
 .timeline ul li:nth-child(odd) div {
 left: 45px;
 }
@@ -141,7 +150,7 @@ border-color: transparent #ecf27c transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
-left: -439px;
+left: -240px;
 }
 
 .timeline ul li:nth-child(even) div::before {
@@ -150,9 +159,13 @@ border-width: 8px 0 8px 16px;
 border-color: transparent transparent transparent #ecf27c;
 }
 
+.day{
+  font-size: 0.8rem;
+}
+
 time {
 display: block;
-font-size: 1.2rem;
+font-size: 0.9rem;
 font-weight: bold;
 margin-bottom: 8px;
 }
@@ -166,13 +179,14 @@ margin-bottom: 8px;
 }
 .timeline ul li:nth-child(even) div {
   left: -289px;
-  /*250+45-6*/
+  /* /250+45-6/ */
 }
 }
 
 @media screen and (max-width: 600px) {
 .timeline ul li {
   margin-left: 20px;
+  padding-top: 10px;
 }
 .timeline ul li div {
   width: calc(100vw - 91px);

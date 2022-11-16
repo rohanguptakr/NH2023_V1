@@ -4,6 +4,7 @@
   <TracksComponent />
   <PrizesComponent />
   <TimelineComponent />
+  <SponsorsComponent />
   <TeamsComponent />
   <AboutClubComponent /> 
   <FaqComponent />
@@ -16,6 +17,7 @@ import TeamsComponent from "./components/TeamsComponent.vue";
 import TimelineComponent from "./components/TimelineComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
 import TracksComponent from "./components/TracksComponent.vue";
+import SponsorsComponent from "./components/SponsorsComponent.vue";
 import FaqComponent from "./components/FaqComponent.vue";
 import AboutComponent from "./components/AboutComponent.vue";
 import PrizesComponent from "./components/PrizesComponent.vue";
@@ -30,6 +32,7 @@ export default {
     TracksComponent,
     TeamsComponent,
     FooterComponent,
+    SponsorsComponent,
     FaqComponent,
     AboutComponent,
     PrizesComponent,
@@ -47,4 +50,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 } */
+body{
+  overflow-x: hidden;
+}
 </style>

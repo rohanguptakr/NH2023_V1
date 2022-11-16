@@ -1,8 +1,8 @@
 <template>
     <div class="con" id="about">
         <h1 class="h3">About</h1>
-        <div class="p">
-            <p>NMITHacks is a 36 hour hackathon event organized by the CS Department at NMIT, one of the most prestigious college in Bangalore. It's an event for people to come together and innovate by pushing their limits to create something new and showcase their unique skillsets!Want to learn something new, network with like-minded computer scientists, and push the boundaries of your skill? Come join us at NMITHacks to solve real-life problems, explore new possibilities, and shoot for the stars!</p>
+        <div>
+            <p class="paragraph">NMITHacks is a 36 hour hackathon event organized by the CS Department at NMIT, one of the most prestigious college in Bangalore. It's an event for people to come together and innovate by pushing their limits to create something new and showcase their unique skillsets! Want to learn something new, network with like-minded computer scientists, and push the boundaries of your skill? Come join us at NMITHacks to solve real-life problems, explore new possibilities, and shoot for the stars!</p>
         </div>
     </div>
 </template>
@@ -16,13 +16,14 @@
         position: relative;
         top :50px;
     }
-    .p{
-        font-family: sans-serif;
-        text-align: center;
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-top: 15%;
-        margin-bottom: 10%;
+    .paragraph{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        font-size: 1.25rem;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 11%;
+        margin-bottom: 2%;
         color:#080518;
         position: relative;
         top : -80px;

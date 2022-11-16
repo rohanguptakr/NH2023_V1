@@ -1,8 +1,9 @@
 <template>
     <h1 class="prize">Prizes</h1>
-    <div class="wrapper-prizes" id="prizes">
-        <div class="card-prizes" onclick="this.classList.toggle('expanded')">
-        <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/1stPlace.png')">
+    <div class="prize-container">
+      <div class="wrapper-prizes first-place" id="prizes">
+      <div class="card-prizes" onclick="this.classList.toggle('expanded')">
+        <img :src="require('../assets/1stPlace.png')">
         <div class="text1">
             <div class="text-content-prizes">
             <h1 class="title">₹ 40,000</h1>
@@ -10,8 +11,11 @@
             </div>
             <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ecf27c" stroke-width="5"/></svg>
         </div>
-        <div class="card-prizes" onclick="this.classList.toggle('expanded')">
-        <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/2ndPlace.png')">
+    </div>
+
+    <div class="wrapper-prizes second-place">
+      <div class="card-prizes" onclick="this.classList.toggle('expanded')">
+        <img :src="require('../assets/2ndPlace.png')">
             <div class="text2">
             <div class="text-content-prizes">
             <h1 class="title">₹ 20,000</h1>
@@ -19,8 +23,9 @@
             </div>
             <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ecf27c" stroke-width="5"/></svg>
         </div>
+
         <div class="card-prizes" onclick="this.classList.toggle('expanded')">
-        <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/3rdPlace.png')">
+        <img :src="require('../assets/3rdPlace.png')">
             <div class="text2">
             <div class="text-content-prizes">
             <h1 class="title">₹ 15,000</h1>
@@ -29,20 +34,31 @@
             <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ecf27c" stroke-width="5"/></svg>
         </div>
     </div>
-    </template>
+    </div>
+</template>
     
-    <style>
+<style>
         @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:900');
     .wrapper-prizes{
+        width : 75vw;
+        margin : 0 auto;
         align-items: center;
         display: flex;
-        justify-content: center;
         font-family: sans-serif;
-        margin-bottom: 15vh;
-        margin-top: 15vh;
         background-color: #fff;
     }
     
+    .first-place{
+      justify-content: center;
+    }
+
+    .second-place{
+      justify-content: center;
+    }
+
+    .third-place{
+      justify-content: cemter;
+    }
     .prize{
         color: #080518;
         padding-left: 10rem;
@@ -57,20 +73,24 @@
         .wrapper-prizes{
         display: block;
       }
+      .card-prizes{
+        max-height :225px;
+        max-width : 220px; 
+      }
     }
     .card-prizes {
       background: #080518;
       border-radius: 8px;
       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
       cursor: pointer;
-      height: 300px;
+      height: 250px;
       margin: 20px;
       padding: 20px 20px;
       position: relative;
       -webkit-tap-highlight-color: rgba(0,0,0,0.025);
       text-align: center;
       transition: height 1000ms;
-      width: 260px;
+      width: 210px;
     }
     img{
         padding-left: 10px;

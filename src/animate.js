@@ -1,6 +1,5 @@
 import anime from "animejs";
 
-
 export function draw(){
     anime({
         targets: '#logo path',

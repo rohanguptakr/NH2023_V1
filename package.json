@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "animejs": "^3.2.1",
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.2",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",

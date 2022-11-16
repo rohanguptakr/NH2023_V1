@@ -1,8 +1,10 @@
 <template>
     <div class="con" id="about">
         <h1 class="h3">About Us</h1>
-        <div class="p">
-            <p>NMITHacks is a 36 hour hackathon event organized by the CS Department at NMIT, one of the most prestigious college in Bangalore. It's an event for people to come together and innovate by pushing their limits to create something new and showcase their unique skillsets!Want to learn something new, network with like-minded computer scientists, and push the boundaries of your skill? Come join us at NMITHacks to solve real-life problems, explore new possibilities, and shoot for the stars!</p>
+        <div class="para2">
+           <p> NMIT Hacks, the Annual National Level Hackathon of CSE Department, NMIT, has been going strong since the year 2015 and has been providing all the enthusiastic participants with a platform to bring any ideas, small or big, into life.</p><br>
+            <p>The theme of this Hackathon is Open-Innovation , which gives you the liberty to find innovative solutions to your own problem statements. Whether you’re a rookie coder or a seasoned veteran, all you need is a laptop, an idea, and a passion to code, to be a part of this event!</p><br>
+            <p>To all the aspiring technopreneurs out there, here is your perfect opportunity to deal with a real-time problem that can bring about a change, and give wings to your imagination by providing the most innovative solution in the due course of 36 hours.</p><br>
         </div>
     </div>
 </template>
@@ -16,13 +18,14 @@
         position: relative;
         top :50px;
     }
-    .p{
-        font-family: sans-serif;
-        text-align: center;
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-top: 15%;
-        margin-bottom: 10%;
+    .para2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        font-size: 1.25rem;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 11%;
+        margin-bottom: 1%;
         color:#080518;
         position: relative;
         top : -80px;

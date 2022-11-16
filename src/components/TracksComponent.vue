@@ -6,58 +6,56 @@
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                    <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/game-development.png')">	
+                    <img :src="require('../assets/game dev.png')">	
                     <div class="role_name">Game Development</div>
                     </div>
-                    <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <div class="film">Create games that intrigue and bring alive a crowd with our brand new track. </div>
                 </div>
             </div>
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                    <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/iot.png')">	
+                    <img :src="require('../assets/IOT (1).png')">	
                     <div class="role_name">Internet of Things</div>
                     </div>
-                    <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <div class="film">Connect several devices together and help them communicate efficiently to help the world in your own, unique way.
+                    </div>
                 </div>
             </div>
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                    <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/artificial-intelligence.png')">
+                    <img :src="require('../assets/AI.png')">
                     <div class="role_name">AI/ML</div>
                     </div>
-                    <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <div class="film">Simulate human intelligence and show-off the wide range of applications that make AI&amp;ML one of the most popular domains in computer science today.</div>
                 </div>
             </div>
+        </div>
+        <div class="cards_wrap">
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                    <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/server.png')">
+                    <img :src="require('../assets/Blockchain.png')">
                     <div class="role_name">Blockchain</div>
                     </div>
-                    <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <div class="film">Use the blockchain to create innovative solutions by bringing together several technologies here.</div>
                 </div>
             </div>
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                        <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/innovation.png')">	
+                        <img :src="require('../assets/open inno.png')">	
                     <div class="role_name">Open Innovation</div>
                     </div>
-                    <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <div class="film">Here you'll have the freedom to build solutions to your own problems and truly show the rest your creative prowess.</div>
                 </div>
             </div>
         </div>
     </div>  
-    </template>
+</template>
     
-    <style>
+<style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap');
     *{
         margin: 0;
@@ -84,25 +82,28 @@
     }
     
     .cards_wrap{
-        padding: 20px;
+        padding: 0px;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        justify-content:center;
         flex-wrap: wrap;
+        margin-bottom: -5%;
     }
     
     .cards_wrap .card_item{
         padding: 15px 10px;
         width: 20%;
+        margin : 10px;
     }
     
     .cards_wrap .card_inner{
         background: #fff;
         border-radius: 5px;
         padding: 35px 20px;
-        min-width: 250px;
-        min-height: 300px;
-        max-height: 370px;
+        min-width: 33%;
+        min-height: 50%;
+        max-height: 80%;
         width: 100%;
       position: relative;
     }
@@ -110,8 +111,7 @@
     .cards_wrap .card_item .role_name{
         color: #080518;
         font-weight: 900;
-        letter-spacing: 2px;
-        font-size: 18px;
+        font-size: 21px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -120,8 +120,8 @@
     }
     
     .cards_wrap .card_item .film{
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 0.75rem;
+        /* line-height: 24px; */
         color: #080518;
       text-align: center;
     }
@@ -151,7 +151,7 @@
     
     @media screen and (max-width: 568px){
         .cards_wrap .card_item{
-            width: 100%;
+            width: 70%;
         }
         .wrapper .header{
             font-size: 30px;
