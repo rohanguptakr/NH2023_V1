@@ -12,7 +12,7 @@
   </div>
   <div class="topic">
     <div class="open">
-    <h2 class="question">2. Is this an online event?
+    <h2 class="question">2.Is this an online event?
 </h2><span class="faq-t"></span>
     </div>
     <p class="answer">We don't like online hackathons, so this is a complete offline event.</p>
