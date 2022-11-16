@@ -28,7 +28,7 @@
                     <img :src="require('../assets/AI.png')">
                     <div class="role_name">AI/ML</div>
                     </div>
-                    <div class="film">Simulate human intelligence and show-off the wide range of applications that make AI&amp;ML one of the most popular domains in computer science today.</div>
+                    <div class="film">Simulate human intelligence and show-off various applications that make AI&ML one of the most popular domains in computer science.</div>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                         <img :src="require('../assets/open inno.png')">	
                     <div class="role_name">Open Innovation</div>
                     </div>
-                    <div class="film">Here you'll have the freedom to build solutions to your own problems and truly show the rest your creative prowess.</div>
+                    <div class="film">Freedom to build solutions to your own problems and truly show the rest your creative prowess.</div>
                 </div>
             </div>
         </div>
@@ -170,6 +170,11 @@
       transition: all 0.4s ease-in-out;
     }
     
+    .animate img{
+        width: 85vw;
+        height: 30vh;
+    }
+
     .card_inner:hover {
       background-color: #ecf27c;
       box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);

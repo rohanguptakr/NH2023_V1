@@ -3,7 +3,7 @@
     <figure class="frame">
         <div class="carousel dissolve" id="teams">
           <div class="items">
-            <img class="item" :src="require('C:/Git upload/NH2023_V1/src/assets/ArchitaNew.png')" alt="Random">
+            <img class="item" :src="require('../assets/ArchitaNew.png')" alt="Random">
             <img class="item" :src="require('../assets/AdityaNew.png')" alt="Seven to ten at Leeds &amp; Holbeck">
             <img class="item" :src="require('../assets/ArchitaNew.png')" alt="Banksy">
             <img class="item" :src="require('../assets/AdityaNew.png')" alt="Bristol autumn">
