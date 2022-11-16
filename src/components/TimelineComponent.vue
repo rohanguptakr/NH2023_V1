@@ -1,5 +1,4 @@
 <template>
-  <body>
   <section class="intro" id="time">
         <h1 class="container">Timeline</h1>
   </section>
@@ -68,7 +67,6 @@
         </li>
       </ul>
     </section>
-</body>
 </template>
 
 <style>
@@ -80,12 +78,13 @@ padding: 0;
 box-sizing: border-box;
 }
 .container{
-  padding-left: 10rem;
+  margin-left : 10%;
+  margin-bottom : 5vh;
   font-weight: 900;
 }
 
 .intro{
-  margin-top: 8vh;
+  margin-top: 15vh;
 }
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -198,6 +197,9 @@ margin-bottom: 8px;
   left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #ecf27c transparent transparent;
+}
+.container{
+  padding-left : 8%;
 }
 }
 </style>

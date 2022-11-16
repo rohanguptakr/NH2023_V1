@@ -35,7 +35,7 @@ export default {
 
 <style>
 .contain{
-        padding-left: 10rem;
+        margin-left: 10%;
         font-weight: 900;
         color: #080518;
         padding-bottom: 5rem;
@@ -66,7 +66,7 @@ body{
     .logo{
         opacity: 0;
         transform: translate(0, 10vh);
-        transition: all 1s;
+        transition: all 0.5s;
         width: 500px;
         margin: auto;
 
@@ -74,6 +74,16 @@ body{
     .logo.visible {
         opacity: 1;
         transform: translate(0, 0);
+    }
+
+    @media (max-width : 480px){
+        .contain{
+            padding-left : 8%;
+        }
+
+        .container3{
+            margin : 0 auto;
+        }
     }
 
 </style>>

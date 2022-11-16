@@ -11,7 +11,7 @@
     
     <style>
     .h3{
-        padding-left: 10rem;
+        margin-left : 9%;
         font-weight: 900;
         color: #080518;
         margin-top : 0;
@@ -50,6 +50,14 @@
         padding-bottom: 15%;
         position: relative;
         left: 0px;
+    }
+
+    .para2 p{
+        font-size : 0.8rem;
+    }
+
+    .para2{
+        padding-top : 5vh;
     }
      }
 

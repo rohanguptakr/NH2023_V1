@@ -1,7 +1,8 @@
 <template>
-	<h1 class="team">Teams</h1>
+	<div class="wrapper" id="teams">
+		<h1 class="team">Teams</h1>
     <figure class="frame">
-        <div class="carousel dissolve" id="teams">
+        <div class="carousel dissolve">
           <div class="items">
             <img class="item" :src="require('../assets/ArchitaNew.png')" alt="Random">
             <img class="item" :src="require('../assets/AdityaNew.png')" alt="Seven to ten at Leeds &amp; Holbeck">
@@ -12,6 +13,7 @@
            </div>
         </div>
     </figure>
+	</div>
 </template>
 
 <script>
@@ -22,16 +24,16 @@
 
 <style>
 .team{
-	color: #080518;
+	color:#ecf27c;
 	font-weight: 900;
-	padding-left: 10rem;
+	margin-left : 10%;
 }
     @import url(https://fonts.googleapis.com/css?family=Trykker);
 .dissolve {
 	margin-top: 20vh;
     margin-bottom: 20vh;
 	width: 400px;
-	height: 500px;
+	height: 400px;
 	position: relative;
 	overflow: hidden;
 }
@@ -42,7 +44,12 @@
 	opacity: 0;
 	animation: dissolve 25s linear infinite;
 }
-
+.wrapper{
+	background-color: #080518;
+}
+.frame{
+	background-color : #fff;
+}
 .dissolve .item:nth-child(2) {
 	animation-delay: 5s;
 }
@@ -134,7 +141,7 @@ figure p a {
 	color: #06afd8;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     figure {
         width: 300px;
         height: 300px;
@@ -145,6 +152,11 @@ figure p a {
         height: 300px;
         box-shadow: 0 0 0 10px #fff, 0 .3em .8em 10px black;
     }
+	.team{
+		padding-left : 8%;
+		margin-bottom : -10vh;
+	}
 }
+
  
 </style>

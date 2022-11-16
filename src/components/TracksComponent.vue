@@ -78,7 +78,8 @@
         align-items: center;
         font-weight: 900;
         font-size: 30px;
-        padding-left: 10rem;
+        margin-left: 8%;
+        margin-bottom : 5vh;
     }
     
     .cards_wrap{
@@ -151,10 +152,13 @@
     
     @media screen and (max-width: 568px){
         .cards_wrap .card_item{
-            width: 70%;
+            width: 70vw;
+            height : 60vh;
         }
         .wrapper .header{
-            font-size: 30px;
+            font-size: 2rem;
+            padding-left:8%;
+            margin-bottom : 5vh;
         }
     }
     

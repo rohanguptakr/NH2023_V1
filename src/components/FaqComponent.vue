@@ -26,7 +26,7 @@
   </div>
   <div class="topic">
     <div class="open">
-    <h2 class="question">4. How many people should a Team be?
+    <h2 class="question">4. What large should a team be?
 </h2><span class="faq-t"></span>
     </div>
     <p class="answer">A team should be between 2-5 people, if you don't have a team yet you can still apply because you will have the chance to join a team onsight.</p>
@@ -54,20 +54,6 @@ on hackathon@nmit.ac.in
     </div>
     <p class="answer">No. That would amount to cheating and you would be disqualified.</p>
   </div>
- <!-- <div class="topic">
-    <div class="open">
-    <h2 class="question">4. How can i find out personal information of another user?
-</h2><span class="faq-t"></span>
-    </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="topic">
-    <div class="open">
-    <h2 class="question">5. How can i contact another user?
-</h2><span class="faq-t"></span>
-    </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>-->
 </main>
     </div> 
 </template>
@@ -109,7 +95,7 @@ on hackathon@nmit.ac.in
     color:#080518;
     font-weight: bold;
     text-align: left;
-    padding-left: 10rem;
+    margin-left : 10%;
 }
 .maindiv{
   font-family: 'Roboto', sans-serif;
@@ -205,7 +191,6 @@ h1{
   color: #ecf27c;
 }
 @media only screen and (max-width: 480px) {
-  .faq-t{display:none;}
   .question{
   padding-right: 0px;
 }
@@ -217,6 +202,20 @@ h1{
   padding-left:0px;
   padding-right:0px;
 }
+.maindiv{
+  margin : 10px;
+}
+
+.faq{
+  padding-left:8%;
+}
+}
+
+@media (min-width:1500px){
+  main{
+    width: 50vw;
+    max-height: 80vh;
+  }
 }
 
 </style>

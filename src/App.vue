@@ -52,5 +52,30 @@ export default {
 } */
 body{
   overflow-x: hidden;
+  overflow-y: overlay;
+  
+} 
+
+html {
+  --scrollbarBG: #080518;
+  --thumbBG: #ecf27c;
 }
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  opacity: 0.5;
+  /* border: 3px solid var(--scrollbarBG); */
+}
+
 </style>

@@ -61,7 +61,8 @@
     }
     .prize{
         color: #080518;
-        padding-left: 10rem;
+        margin-left : 10%;
+        margin-bottom : 5vh;
         margin-top: 40px;
         font-weight: 900;
     }
@@ -74,8 +75,12 @@
         display: block;
       }
       .card-prizes{
-        max-height :225px;
+        max-height :350px;
         max-width : 220px; 
+      }
+      .prize{
+        padding-left : 8%;
+        margin-bottom : 8vh;
       }
     }
     .card-prizes {
@@ -102,7 +107,7 @@
       }
     }
     .card-prizes.expanded {
-      height: 350px;
+      height: 300px;
     }
     .label {
       margin-top: 30px;

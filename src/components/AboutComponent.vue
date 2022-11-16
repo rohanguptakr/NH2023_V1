@@ -9,12 +9,12 @@
     
     <style>
     .h3{
-        padding-left: 10rem;
         font-weight: 900;
         color: #080518;
         margin-top : 0;
         position: relative;
         top :50px;
+        padding-bottom:5vh;
     }
     .paragraph{
         font-family: 'Lucida Sans', 'Lucida Sans Regular';
@@ -41,13 +41,15 @@
         position: relative;
         top : -80px;
      } */
-        .p{
+        .paragraph{
         padding-top: 15%;
+        font-size:0.8rem;
     }
     .h3{
-        padding-bottom: 15%;
-        position: relative;
-        left: 0px;
+        /* padding-bottom: 15%; */
+        padding : 0px;
+        margin-bottom: 5vh;
+        text-align: left;
     }
      }
 
