@@ -6,7 +6,7 @@
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                    <img :src="require('C:/Git upload/NH2023_V1/src/assets/game-development.png')">	
+                    <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/game-development.png')">	
                     <div class="role_name">Game Development</div>
                     </div>
                     <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -16,7 +16,7 @@
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                    <img :src="require('C:/Git upload/NH2023_V1/src/assets/iot.png')">	
+                    <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/iot.png')">	
                     <div class="role_name">Internet of Things</div>
                     </div>
                     <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -26,7 +26,7 @@
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                    <img :src="require('C:/Git upload/NH2023_V1/src/assets/artificial-intelligence.png')">
+                    <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/artificial-intelligence.png')">
                     <div class="role_name">AI/ML</div>
                     </div>
                     <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -36,7 +36,7 @@
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                    <img :src="require('C:/Git upload/NH2023_V1/src/assets/server.png')">
+                    <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/server.png')">
                     <div class="role_name">Blockchain</div>
                     </div>
                     <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -46,7 +46,7 @@
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
-                        <img :src="require('C:/Git upload/NH2023_V1/src/assets/innovation.png')">	
+                        <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/innovation.png')">	
                     <div class="role_name">Open Innovation</div>
                     </div>
                     <div class="film">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

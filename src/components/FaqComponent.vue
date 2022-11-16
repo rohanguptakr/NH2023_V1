@@ -5,26 +5,56 @@
 <main>
   <div class="topic">
     <div class="open">
-      <h2 class="question">1. How can i delete my complaint/comment?</h2>
+      <h2 class="question">1. What is a Hackathon?</h2>
       <span class="faq-t"></span>
     </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="answer">In general a Hackathon is a social coding event that brings together computer programmers like software developers, graphic designers and user interface specialists along with industry process experts and professionals to identify issues and create software solutions within a stipulated time.</p>
   </div>
   <div class="topic">
     <div class="open">
-    <h2 class="question">2. I have posted a complaint/comment, but it doesn't appear on the website. Why? When my complaint will be posted?
+    <h2 class="question">2. Is this an online event?
 </h2><span class="faq-t"></span>
     </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="answer">We don't like online hackathons, so this is a complete offline event.</p>
   </div>
   <div class="topic">
     <div class="open">
-    <h2 class="question">3. How can I edit a complaint I posted?
+    <h2 class="question">3. Who can participate?
 </h2><span class="faq-t"></span>
     </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="answer">Everybody is welcome. No matter if you are an entrepreneur, a professional or a student. You don't have to be a programmer and you certainly don't need to have a degree in Computer Science! Specifically, we are looking for hackers, coders, makers but also for innovators, Engineers, creative people, designers, data geeks and startups. Because our challenges are not only limited to programming!.</p>
   </div>
   <div class="topic">
+    <div class="open">
+    <h2 class="question">4. How many people should a Team be?
+</h2><span class="faq-t"></span>
+    </div>
+    <p class="answer">A team should be between 2-5 people, if you don't have a team yet you can still apply because you will have the chance to join a team onsight.</p>
+  </div>
+  <div class="topic">
+    <div class="open">
+    <h2 class="question">5. How are the winners selected?
+</h2><span class="faq-t"></span>
+    </div>
+    <p class="answer">There will be an independent Jury selecting the winners with a rating system: Implementation ability, financial benefits, presentation skills, creativity.</p>
+  </div>
+  <div class="topic">
+    <div class="open">
+    <h2 class="question">6. How can I get involved?
+</h2><span class="faq-t"></span>
+    </div>
+    <p class="answer">Go ahead and visit the NMITHacks page and book your place. Have another question that didn't get answered here - send us an email
+on hackathon@nmit.ac.in
+</p>
+  </div>
+  <div class="topic">
+    <div class="open">
+    <h2 class="question">7. Can i start working on my hack before the event?
+</h2><span class="faq-t"></span>
+    </div>
+    <p class="answer">No. That would amount to cheating and you would be disqualified.</p>
+  </div>
+ <!-- <div class="topic">
     <div class="open">
     <h2 class="question">4. How can i find out personal information of another user?
 </h2><span class="faq-t"></span>
@@ -37,37 +67,9 @@
 </h2><span class="faq-t"></span>
     </div>
     <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="topic">
-    <div class="open">
-    <h2 class="question">2. I have posted a complaint/comment, but it doesn't appear on the website. Why? When my complaint will be posted?
-</h2><span class="faq-t"></span>
-    </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="topic">
-    <div class="open">
-    <h2 class="question">3. How can I edit a complaint I posted?
-</h2><span class="faq-t"></span>
-    </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="topic">
-    <div class="open">
-    <h2 class="question">4. How can i find out personal information of another user?
-</h2><span class="faq-t"></span>
-    </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="topic">
-    <div class="open">
-    <h2 class="question">5. How can i contact another user?
-</h2><span class="faq-t"></span>
-    </div>
-    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
+  </div>-->
 </main>
-    </div>
+    </div> 
 </template>
 
 <script>

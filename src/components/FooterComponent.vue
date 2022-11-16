@@ -3,8 +3,8 @@
         <footer>
           <h1 class="contact">Contact Us</h1>
           <div class="logos">
-          <img :src="require('C:/Git upload/NH2023_V1/src/assets/nitte_nmit_logo.png')" alt="" class="nitte-logo">
-          <img :src="require('C:/Git upload/NH2023_V1/src/assets/LogoFooter.png')" alt="" class="hacks-logo">
+          <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/nitte_nmit_logo.png')" alt="" class="nitte-logo">
+          <img :src="require('C:/Users/91973/Documents/GitHub/NH2023_V1/src/assets/LogoFooter.png')" alt="" class="hacks-logo">
           </div>
             <p class="text">Follow Us</p>
             <div class="social"><a href="https://www.instagram.com/nmit_hacks/" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href="https://twitter.com/NMIT_Hacks" target="_blank"><i class="fa-brands fa-twitter"></i></a><a href="https://www.facebook.com/nmit.hacks.50" target="_blank"><i class="fa-brands fa-facebook"></i></a><a href="https://www.linkedin.com/in/nmit-hacks-8082531bb/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
