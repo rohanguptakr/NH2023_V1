@@ -12,7 +12,7 @@
   </div>
   <div class="topic">
     <div class="open">
-    <h2 class="question">2.Is this an online event?
+    <h2 class="question">2. Is this an online event?
 </h2><span class="faq-t"></span>
     </div>
     <p class="answer">We don't like online hackathons, so this is a complete offline event.</p>
@@ -140,10 +140,11 @@ h1{
   opacity:0.7;
 }
 .expanded{
-  color: var(--bgYellow);
+  color:#fff;
   background-color: var(--bgBlue);
   border-bottom:solidvar(--bgYellow);
   transition: all .3s ease-in-out;
+  margin-bottom: 0.5%;
 }
 .question{
   padding-top:30px;
@@ -161,6 +162,7 @@ h1{
   text-align:justify;
   padding-left:20px;
   padding-right:20px;
+  color: #fff;
 }
 .faq-t{
   -moz-transform: rotate(-45deg);
