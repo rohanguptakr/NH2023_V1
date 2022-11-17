@@ -59,6 +59,8 @@ body{
 html {
   --scrollbarBG: #080518;
   --thumbBG: #ecf27c;
+  --bgBlue: #080518;
+  --bgYellow:#ecf27c;
 }
 
 body::-webkit-scrollbar {

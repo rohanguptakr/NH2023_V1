@@ -34,10 +34,11 @@ export default {
 </script>
 
 <style>
+
 .contain{
         margin-left: 10%;
         font-weight: 900;
-        color: #080518;
+        color: var(--bgBlue);
         padding-bottom: 5rem;
     }    
 
@@ -45,7 +46,7 @@ export default {
 	display: grid;
 	grid-gap: 5px;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-template-rows: repeat(10, 150px);
+	grid-template-rows: repeat(2, 150px);
     margin-bottom: 8%;
     margin-left: 20%;
     margin-right: 20%;
@@ -60,30 +61,29 @@ body{
         margin:0;
         padding: 0;
 }
-    .fade-in-image{
+.fade-in-image{
         height: 100vh;
-    }
-    .logo{
+}
+.logo{
         opacity: 0;
         transform: translate(0, 10vh);
         transition: all 0.5s;
         width: 500px;
         margin: auto;
-
-    }
-    .logo.visible {
+}
+.logo.visible {
         opacity: 1;
         transform: translate(0, 0);
+}
+@media (max-width : 480px){
+    .contain{
+        padding-left : 8%;
     }
-
-    @media (max-width : 480px){
-        .contain{
-            padding-left : 8%;
-        }
-
-        .container3{
-            margin : 0 auto;
-        }
+    .container3{
+        margin : 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-rows: repeat(4, 120px);
     }
+}
 
-</style>>
+</style>

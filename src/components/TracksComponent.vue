@@ -65,7 +65,7 @@
     }
     
     .wrapper {
-        background: #080518;
+        background: var(--bgBlue);
         padding-top: 2rem;
         padding-bottom: 2rem;
         position: relative;
@@ -73,7 +73,7 @@
     .wrapper .header{
         width: 100%;
         height: 50px;
-        color: #ecf27c;
+        color: var(--bgYellow);
         display: flex;
         align-items: center;
         font-weight: 900;
@@ -110,7 +110,7 @@
     }
     
     .cards_wrap .card_item .role_name{
-        color: #080518;
+        color: var(--bgBlue);
         font-weight: 900;
         font-size: 21px;
         white-space: nowrap;
@@ -123,7 +123,7 @@
     .cards_wrap .card_item .film{
         font-size: 0.75rem;
         /* line-height: 24px; */
-        color: #080518;
+        color: var(--bgBlue);
       text-align: center;
     }
     
@@ -180,7 +180,7 @@
     }
 
     .card_inner:hover {
-      background-color: #ecf27c;
+      background-color: var(--bgYellow);
       box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
       transform: scale(1.1);
     }

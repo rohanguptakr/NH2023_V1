@@ -92,7 +92,7 @@ on hackathon@nmit.ac.in
 <style>
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 .faq{
-    color:#080518;
+    color:var(--bgBlue);
     font-weight: bold;
     text-align: left;
     margin-left : 10%;
@@ -100,7 +100,7 @@ on hackathon@nmit.ac.in
 .maindiv{
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  color:#080518;
+  color:var(--bgBlue);
   padding-top: 40px;
   padding-bottom: 40px;
   margin-bottom: 0;
@@ -112,7 +112,7 @@ main{
   padding:30px;
   width:100%;
   max-width:920px;
-  background-color:#ecf27c;
+  background-color:var(--bgYellow);
   margin:0 auto;
   margin-top:50px;
   box-shadow:0px 0px 5px rgba(0,0,0,0.1);
@@ -128,7 +128,7 @@ h1{
   padding:20px;
   padding-top:0px;
   padding-bottom:0px;
-  border-bottom:solid 1px #080518;
+  border-bottom:solid 1px var(--bgBlue);
   border-radius: 10px;
 }
 .open{
@@ -140,9 +140,9 @@ h1{
   opacity:0.7;
 }
 .expanded{
-  color: #ecf27c;
-  background-color:#080518;
-  border-bottom:solid#ecf27c;
+  color: var(--bgYellow);
+  background-color: var(--bgBlue);
+  border-bottom:solidvar(--bgYellow);
   transition: all .3s ease-in-out;
 }
 .question{
@@ -175,10 +175,10 @@ h1{
   width: 10px;
   height: 10px;
   background: transparent;
-  border-left: 2px solid #080518;
-  border-bottom: 2px solid #080518; 
+  border-left: 2px solid var(--bgBlue);
+  border-bottom: 2px solid var(--bgBlue); 
   transition: all .3s ease-in-out;
-  color:#080518;
+  color:var(--bgBlue);
 }
 .faq-o{
   top:-50px;
@@ -186,9 +186,9 @@ h1{
   -ms-transform: rotate(-224deg);
   -webkit-transform: rotate(-224deg);
   transform: rotate(-224deg);
-  border-left: 2px solid #ecf27c;
-  border-bottom: 2px solid #ecf27c; 
-  color: #ecf27c;
+  border-left: 2px solid var(--bgYellow);
+  border-bottom: 2px solid var(--bgYellow); 
+  color: var(--bgYellow);
 }
 @media only screen and (max-width: 480px) {
   .question{

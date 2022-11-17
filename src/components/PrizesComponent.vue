@@ -9,7 +9,7 @@
             <h1 class="title">₹ 40,000</h1>
             </div>
             </div>
-            <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ecf27c" stroke-width="5"/></svg>
+            <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="var(--bgYellow)" stroke-width="5"/></svg>
         </div>
     </div>
 
@@ -21,7 +21,7 @@
             <h1 class="title">₹ 20,000</h1>
             </div>
             </div>
-            <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ecf27c" stroke-width="5"/></svg>
+            <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="var(--bgYellow)" stroke-width="5"/></svg>
         </div>
 
         <div class="card-prizes" onclick="this.classList.toggle('expanded')">
@@ -31,7 +31,7 @@
             <h1 class="title">₹ 15,000</h1>
             </div>
             </div>
-            <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ecf27c" stroke-width="5"/></svg>
+            <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="var(--bgYellow)" stroke-width="5"/></svg>
         </div>
     </div>
     </div>
@@ -60,7 +60,7 @@
       justify-content: cemter;
     }
     .prize{
-        color: #080518;
+        color: var(--bgBlue);
         margin-left : 10%;
         margin-bottom : 5vh;
         margin-top: 40px;
@@ -84,7 +84,7 @@
       }
     }
     .card-prizes {
-      background: #080518;
+      background: var(--bgBlue);
       border-radius: 8px;
       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
       cursor: pointer;
@@ -159,7 +159,7 @@
       font-family: 'Alegreya Sans', sans-serif;
       font-weight: 900;
       margin-top: 40px;
-      color: #ecf27c;
+      color: var(--bgYellow);
     }
     
     

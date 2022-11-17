@@ -19,8 +19,8 @@
 <style>
     .footer-basic {
     padding:40px 0;
-    background-color:#080518;
-    color:#ecf27c;
+    background-color:var(--bgBlue);
+    color:var(--bgYellow);
     position : relative;
     bottom : 0%;
     width:100%;

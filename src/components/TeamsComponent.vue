@@ -24,7 +24,7 @@
 
 <style>
 .team{
-	color:#ecf27c;
+	color:var(--bgYellow);
 	font-weight: 900;
 	margin-left : 10%;
 }
@@ -45,7 +45,7 @@
 	animation: dissolve 25s linear infinite;
 }
 .wrapper{
-	background-color: #080518;
+	background-color: var(--bgBlue);
 }
 .frame{
 	background-color : #fff;

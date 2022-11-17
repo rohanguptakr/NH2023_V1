@@ -13,7 +13,7 @@
     .h3{
         margin-left : 9%;
         font-weight: 900;
-        color: #080518;
+        color: var(--bgBlue);
         margin-top : 0;
         position: relative;
         top :50px;
@@ -26,7 +26,7 @@
         margin-right: 10%;
         margin-top: 11%;
         margin-bottom: 1%;
-        color:#080518;
+        color:var(--bgBlue);
         position: relative;
         top : -80px;
      }
@@ -39,7 +39,7 @@
         font-family: sans-serif;
         text-align: center;
         margin: 10%;
-        color:#080518;
+        color:var(--bgBlue);
         position: relative;
         top : -80px;
      } */

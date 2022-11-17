@@ -22,7 +22,7 @@
         text-align: left;
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 11%;
+        margin-top: 10%;
         margin-bottom: 2%;
         color:#080518;
         position: relative;
