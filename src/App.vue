@@ -1,7 +1,7 @@
 <template>
   <NavbarComponent />
   <AboutComponent />
-  <TempTracksComponent />
+  <TempTracksComp />
   <PrizesComponent />
   <TimelineComponent />
   <SponsorsComponent />
@@ -16,7 +16,7 @@ import NavbarComponent from "./components/NavbarComponent.vue";
 import TeamsComponent from "./components/TeamsComponent.vue";
 import TimelineComponent from "./components/TimelineComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
-import TempTracksComponent from "./components/TempTracksComp.vue";
+import TempTracksComp from "./components/TempTracksComp.vue";
 import SponsorsComponent from "./components/SponsorsComponent.vue";
 import FaqComponent from "./components/FaqComponent.vue";
 import AboutComponent from "./components/AboutComponent.vue";
@@ -29,7 +29,7 @@ export default {
   components: {
     NavbarComponent,
     TimelineComponent,
-    TempTracksComponent,
+    TempTracksComp,
     TeamsComponent,
     FooterComponent,
     SponsorsComponent,
