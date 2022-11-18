@@ -140,9 +140,9 @@ h1{
   opacity:0.7;
 }
 .expanded{
-  color:#fff;
-  background-color: var(--bgBlue);
-  border-bottom:solidvar(--bgYellow);
+  color:#000;
+  background-color: #dae157;
+  border:solid var(--bgBlue);
   transition: all .3s ease-in-out;
   margin-bottom: 0.5%;
 }
@@ -162,7 +162,7 @@ h1{
   text-align:justify;
   padding-left:20px;
   padding-right:20px;
-  color: #fff;
+  color: #000;
 }
 .faq-t{
   -moz-transform: rotate(-45deg);
@@ -188,11 +188,32 @@ h1{
   -ms-transform: rotate(-224deg);
   -webkit-transform: rotate(-224deg);
   transform: rotate(-224deg);
-  border-left: 2px solid var(--bgYellow);
-  border-bottom: 2px solid var(--bgYellow); 
+  border-left: 2px solid var(--bgBlue);
+  border-bottom: 2px solid var(--bgBlue); 
   color: var(--bgYellow);
 }
 @media only screen and (max-width: 480px) {
+  .question{
+  padding-right: 0px;
+}
+  main{
+  padding:10px;
+}
+  .answer{
+  margin-bottom:30px;
+  padding-left:0px;
+  padding-right:0px;
+}
+.maindiv{
+  margin : 10px;
+}
+
+.faq{
+  padding-left:8%;
+}
+}
+
+@media only screen and (max-width: 900px) {
   .question{
   padding-right: 0px;
 }

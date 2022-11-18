@@ -64,7 +64,8 @@ import SvgComponent from "./SvgComponent.vue";
   position: relative;
   height : 100vh;
   width : 100vw;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #080518 100%);
+  /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #080518 100%); */
+  background-color:var(--bgBlue);
   overflow: hidden;
 }
 
@@ -281,6 +282,26 @@ nav.show {
   }
 }
 @media (max-width: 480px) {
+  nav ul li {
+    font-size : 18px;
+  }
+  
+  nav ul {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  nav.show {
+    width: 50%;
+    opacity: 1;
+  }
+  .dark-blue.slide {
+    width: 50%;
+    opacity: 1;
+  }
+}
+@media (max-width: 900px) {
   nav ul li {
     font-size : 18px;
   }

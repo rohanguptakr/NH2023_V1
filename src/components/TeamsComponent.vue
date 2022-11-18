@@ -1,15 +1,19 @@
 <template>
 	<div class="wrapper" id="teams">
-		<h1 class="team">Teams</h1>
+		<h1 class="team">Team</h1>
     <figure class="frame">
         <div class="carousel dissolve">
           <div class="items">
-            <img class="item" :src="require('../assets/ArchitaNew.png')" alt="Random">
-            <img class="item" :src="require('../assets/AdityaNew.png')" alt="Seven to ten at Leeds &amp; Holbeck">
-            <img class="item" :src="require('../assets/ArchitaNew.png')" alt="Banksy">
-            <img class="item" :src="require('../assets/AdityaNew.png')" alt="Bristol autumn">
-            <img class="item" :src="require('../assets/ArchitaNew.png')" alt="Bristol autumn">
-            <img class="item" :src="require('../assets/AdityaNew.png')" alt="Bristol autumn">
+            <img class="item" src="../assets/Aditya.png" alt="Aditya">
+            <img class="item" :src="require('../assets/Ekeswar.png')" alt="Ekeswar">
+            <img class="item" :src="require('../assets/Madhumitha.png')" alt="Madhumitha">
+            <img class="item" :src="require('../assets/Onkar.png')" alt="Onkar">
+            <img class="item" :src="require('../assets/Tejashree.png')" alt="Tejashree">
+            <img class="item" :src="require('../assets/Ashwin.png')" alt="Ashwin">
+			<img class="item" :src="require('../assets/Nitin.png')" alt="Nitin">
+			<img class="item" :src="require('../assets/Shravan.png')" alt="Shravan">
+			<img class="item" :src="require('../assets/Smita.png')" alt="Smita">
+			<img class="item" :src="require('../assets/Vikitha.png')" alt="Vikitha">
            </div>
         </div>
     </figure>
@@ -25,13 +29,14 @@
 <style>
 .team{
 	color:var(--bgYellow);
+	padding-top: 5vh;
 	font-weight: 900;
 	margin-left : 10%;
 }
     @import url(https://fonts.googleapis.com/css?family=Trykker);
 .dissolve {
-	margin-top: 20vh;
-    margin-bottom: 20vh;
+	margin-top: 10vh;
+    margin-bottom: 10vh;
 	width: 400px;
 	height: 400px;
 	position: relative;
@@ -42,28 +47,49 @@
 	left: 0;
 	right: 0;
 	opacity: 0;
-	animation: dissolve 25s linear infinite;
+	animation: dissolve 33s linear infinite;
 }
 .wrapper{
 	background-color: var(--bgBlue);
+	max-width: 100vw;
+	max-height: 100vh;
+	padding-bottom: 10vh;
 }
 .frame{
 	background-color : #fff;
 }
 .dissolve .item:nth-child(2) {
-	animation-delay: 5s;
+	animation-delay: 3s;
 }
 .dissolve .item:nth-child(3) {
-	animation-delay: 10s;
+	animation-delay: 6s;
 }
 .dissolve .item:nth-child(4) {
-	animation-delay: 15s;
+	animation-delay: 9s;
 }
 .dissolve .item:nth-child(5) {
-    animation-delay: 20s;
+    animation-delay: 12s;
 }
 .dissolve .item:nth-child(6) {
-    animation-delay: 25s;
+    animation-delay: 15s;
+}
+.dissolve .item:nth-child(7) {
+    animation-delay: 18s;
+}
+.dissolve .item:nth-child(8) {
+    animation-delay: 21s;
+}
+.dissolve .item:nth-child(9) {
+    animation-delay: 24s;
+}
+.dissolve .item:nth-child(10) {
+    animation-delay: 27s;
+}
+.dissolve .item:nth-child(11) {
+    animation-delay: 30s;
+}
+.dissolve .item:nth-child(12) {
+    animation-delay: 33s;
 }
 
 @-webkit-keyframes dissolve {
@@ -133,15 +159,33 @@ figure figcaption:before {
 figure figcaption:after {
     margin-left: .3em;
 }
-figure p {
+/* figure p {
 	color: #999;
 	text-align: center;
 }
 figure p a {
 	color: #06afd8;
-}
+} */
 
 @media (max-width: 480px) {
+    figure {
+        width: 300px;
+        height: 300px;
+		margin-bottom: 20%;
+}
+    figure .carousel {
+        width: 300px;
+        height: 300px;
+        box-shadow: 0 0 0 10px #fff, 0 .3em .8em 10px black;
+		margin-top: 50%;
+    }
+	.team{
+		padding-left : 8%;
+		margin-bottom : -10vh;
+	}
+}
+
+@media (max-width: 900px) {
     figure {
         width: 300px;
         height: 300px;

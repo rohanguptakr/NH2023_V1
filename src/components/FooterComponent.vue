@@ -4,7 +4,7 @@
           <h1 class="contact">Contact Us</h1>
           <div class="logos">
           <img :src="require('../assets/nitte_nmit_logo.png')" alt="" class="nitte-logo">
-          <img :src="require('../assets/LogoFooter.png')" alt="" class="hacks-logo">
+          <img :src="require('../assets/NHCenterLogo.png')" alt="" class="hacks-logo">
           </div>
             <p class="text">Follow Us</p>
             <div class="social"><a href="https://www.instagram.com/nmit_hacks/" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href="https://twitter.com/NMIT_Hacks" target="_blank"><i class="fa-brands fa-twitter"></i></a><a href="https://www.facebook.com/nmit.hacks.50" target="_blank"><i class="fa-brands fa-facebook"></i></a><a href="https://www.linkedin.com/in/nmit-hacks-8082531bb/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
@@ -35,18 +35,17 @@
 
   .logos{
     display: flex;
+    justify-content: space-evenly;
   }
 
   .nitte-logo{
-    margin-top: 8%;
-    padding-left: 12rem;
-    margin-bottom: 5%;
+    margin-top : 15%;
+    height : 100%;
+    width : auto;
   }
 
   .hacks-logo{
-    padding-left: 10rem;
     margin-top: 8%;
-    padding-right: 12rem;
     margin-bottom: 5%;
   }
   
@@ -106,6 +105,19 @@
   }
 
   @media (max-width: 480px){
+  .logos{
+    display: flex;
+  }
+  .nitte-logo{
+    padding-top : 5vh;
+  }
+  .contact{
+    padding-left:0;
+    margin-left:10%;
+  }
+  }
+  
+  @media (max-width: 900px){
   .logos{
     display: flex;
   }

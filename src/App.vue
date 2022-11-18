@@ -1,7 +1,7 @@
 <template>
   <NavbarComponent />
   <AboutComponent />
-  <TracksComponent />
+  <TempTracksComponent />
   <PrizesComponent />
   <TimelineComponent />
   <SponsorsComponent />
@@ -16,7 +16,7 @@ import NavbarComponent from "./components/NavbarComponent.vue";
 import TeamsComponent from "./components/TeamsComponent.vue";
 import TimelineComponent from "./components/TimelineComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
-import TracksComponent from "./components/TracksComponent.vue";
+import TempTracksComponent from "./components/TempTracksComp.vue";
 import SponsorsComponent from "./components/SponsorsComponent.vue";
 import FaqComponent from "./components/FaqComponent.vue";
 import AboutComponent from "./components/AboutComponent.vue";
@@ -29,7 +29,7 @@ export default {
   components: {
     NavbarComponent,
     TimelineComponent,
-    TracksComponent,
+    TempTracksComponent,
     TeamsComponent,
     FooterComponent,
     SponsorsComponent,
@@ -42,20 +42,16 @@ export default {
 </script>
 
 <style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
 body{
   overflow-x: hidden;
   overflow-y: overlay;
   
 } 
-
+@media (max-width: 500px) {
+  body {
+  overflow-x: hidden;
+  }
+}
 html {
   --scrollbarBG: #080518;
   --thumbBG: #ecf27c;
@@ -79,5 +75,4 @@ body::-webkit-scrollbar-thumb {
   opacity: 0.5;
   /* border: 3px solid var(--scrollbarBG); */
 }
-
 </style>

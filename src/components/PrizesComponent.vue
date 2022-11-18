@@ -70,7 +70,21 @@
     #second{
         margin-top: 50vh;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 500px) {
+        .wrapper-prizes{
+        display: block;
+      }
+      .card-prizes{
+        max-height :350px;
+        max-width : 220px; 
+      }
+      .prize{
+        padding-left : 8%;
+        margin-bottom : 8vh;
+      }
+    }
+
+    @media (max-width: 900px) {
         .wrapper-prizes{
         display: block;
       }
@@ -100,7 +114,13 @@
     img{
         padding-left: 10px;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 500px) {
+      .card-prizes {
+        left: calc(50% - 20px);
+        transform: translateX(-50%);
+      }
+    }
+    @media (max-width: 900px) {
       .card-prizes {
         left: calc(50% - 20px);
         transform: translateX(-50%);

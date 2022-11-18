@@ -129,4 +129,21 @@ View Results</button>
         left:22vw;
     }
     }
+
+    @media (max-width: 900px) {
+        h3{
+            top:55vw
+        }
+        .pos-for-button{
+        position: absolute;
+        top: 50vh;
+        left:22vw;
+    }
+
+    .pos-for-button-2{
+        position: absolute;
+        top: 40vh;
+        left:22vw;
+    }
+    }
 </style>

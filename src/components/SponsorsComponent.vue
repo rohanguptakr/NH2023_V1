@@ -85,5 +85,15 @@ body{
         grid-template-rows: repeat(4, 120px);
     }
 }
+@media (max-width : 900px){
+    .contain{
+        padding-left : 8%;
+    }
+    .container3{
+        margin : 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-rows: repeat(4, 120px);
+    }
+}
 
 </style>

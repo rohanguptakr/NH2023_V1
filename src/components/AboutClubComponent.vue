@@ -61,7 +61,7 @@
     }
      }
 
-     @media (max-width: 700px) {
+     @media (max-width: 900px) {
         .p{
         padding-top: 20%;
     }
