@@ -67,6 +67,9 @@
         </li>
       </ul>
     </section>
+    <div class="soon">
+    <p class="coming">Coming Soon!!</p>
+    </div>
 </template>
 
 <style>
@@ -76,6 +79,15 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+}
+.coming
+{
+  text-align: center;
+  font-size: 25px;
+  color: #080518;
+}
+.soon{
+  height: 40vh;
 }
 .container{
   margin-left : 10%;
@@ -92,6 +104,7 @@ box-sizing: border-box;
 .timeline ul {
 background: #fff;
 padding: 50px 0;
+display: none;
 }
 
 .timeline ul li {

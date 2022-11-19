@@ -8,6 +8,10 @@
     <div><img class="logo" :src="require('../assets/Sakha-Global-temp.png')"></div>
     <div><img class="logo" :src="require('../assets/devfolio-temp.png')"></div>
 </div>
+<div class="soon">
+    <p class="coming"> For personalised sponsorship benefits contact us on <a  href="https://mail.google.com/mail/"> hackathon@nmit.ac.in </a></p>
+</div>
+
 </template>
 
 <script>
@@ -43,7 +47,7 @@ export default {
     }    
 
 .container3 {
-	display: grid;
+	display: none;
 	grid-gap: 5px;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-template-rows: repeat(2, 150px);
