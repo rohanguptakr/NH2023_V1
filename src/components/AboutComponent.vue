@@ -15,6 +15,8 @@
         position: relative;
         top :50px;
         padding-bottom:5vh;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:1.5rem;
     }
     .paragraph{
         font-family: 'Lucida Sans', 'Lucida Sans Regular';

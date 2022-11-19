@@ -32,6 +32,8 @@
 	padding-top: 5vh;
 	font-weight: 900;
 	margin-left : 10%;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:1.5rem;
 }
     @import url(https://fonts.googleapis.com/css?family=Trykker);
 .dissolve {

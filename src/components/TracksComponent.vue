@@ -7,7 +7,7 @@
                 <div class="card_inner">
                     <div class="animate">
                     <img :src="require('../assets/game dev.png')">	
-                    <div class="role_name">Game Development</div>
+                    <div class="role_name">Game <br/>Development</div>
                     </div>
                     <div class="film">Create games that intrigue and bring alive a crowd with our brand new track. </div>
                 </div>
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="cards_wrap">
+        <div class="cards_wrap cardwrap-2">
             <div class="card_item">
                 <div class="card_inner">
                     <div class="animate">
@@ -65,15 +65,18 @@
     }
     
     .wrapper {
-        background: var(--bgBlue);
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        background: #080518;
+        padding-top:2rem;
+        padding-bottom : 2rem;
         position: relative;
     }
+    /* .cardwrap-2{
+        padding-bottom:50vh;
+    } */
     .wrapper .header{
         width: 100%;
         height: 50px;
-        color: var(--bgYellow);
+        color: #ecf27c;
         display: flex;
         align-items: center;
         font-weight: 900;
@@ -89,7 +92,7 @@
         /* justify-content: space-between; */
         justify-content:center;
         flex-wrap: wrap;
-        margin-bottom: -5%;
+        margin-bottom: 10px;
     }
     
     .cards_wrap .card_item{
@@ -102,34 +105,35 @@
         background: #fff;
         border-radius: 5px;
         padding: 35px 20px;
-        min-width: 33%;
+        /* min-width: 33%;
         min-height: 50%;
-        max-height: 80%;
-        width: 100%;
-      position: relative;
+        max-height: 80%; */
+        width : 210px;
+        height: 250px;
+        position: relative;
     }
     
     .cards_wrap .card_item .role_name{
-        color: var(--bgBlue);
+        color: #080518;
         font-weight: 900;
-        font-size: 21px;
+        font-size: 0.7rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 0px;
     }
     
     .cards_wrap .card_item .film{
-        font-size: 0.75rem;
+        font-size: 0.5rem;
         /* line-height: 24px; */
-        color: var(--bgBlue);
+        color: #080518;
       text-align: center;
     }
     
     .cards_wrap .card_item img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         margin-bottom: 10px;
       margin: auto;
     }
@@ -140,7 +144,7 @@
         }
     }
     
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 768px){
         .cards_wrap .card_item{
             width: 50%;
         }
@@ -164,6 +168,8 @@
     
     .card_item .film{
       opacity: 0;
+      position: relative;
+      bottom:7vh;
     }
     
     .card_inner{
@@ -180,9 +186,9 @@
     }
 
     .card_inner:hover {
-      background-color: var(--bgYellow);
+      background-color: #ecf27c;
       box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
-      transform: scale(1.1);
+      transform: scale(1.2);
     }
     
     .card_item:hover .film{

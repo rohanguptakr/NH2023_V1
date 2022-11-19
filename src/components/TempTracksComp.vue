@@ -12,7 +12,7 @@
                 Game Development
               </p>
               <div class="card__info">
-                <p class="text--medium">Create games that intrigue and bring alive a crowd with our brand new track.</p>
+                <p class="text-desc text--medium">Create games that intrigue and bring alive a crowd with our brand new track.</p>
                 
               </div>
             </div>
@@ -26,7 +26,7 @@
                 Internet of Things
               </p>
               <div class="card__info">
-                <p class="text--medium">Connect several devices together and help them communicate efficiently to help the world in your own, unique way.</p>
+                <p class="text-desc text--medium">Connect several devices together and help them communicate efficiently to help the world in your own, unique way.</p>
                 
               </div>
             </div>
@@ -40,7 +40,7 @@
                 AI/ML
               </p>
               <div class="card__info">
-                <p class="text--medium">Simulate human intelligence and show-off various applications that make AI&ML one of the most popular domains in computer science.</p>
+                <p class="text-desc text--medium">Simulate human intelligence and show-off various applications that make AI&ML one of the most popular domains in computer science.</p>
                 
               </div>
             </div>
@@ -56,7 +56,7 @@
                   Blockchain
                 </p>
                 <div class="card__info">
-                  <p class="text--medium">Use the blockchain to create innovative solutions by bringing together several technologies here.</p>
+                  <p class="text-desc text--medium">Use the blockchain to create innovative solutions by bringing together several technologies here.</p>
                   
                 </div>
               </div>
@@ -70,7 +70,7 @@
                   Open Innovation
                 </p>
                 <div class="card__info">
-                  <p class="text--medium">Freedom to build solutions to your own problems and truly show the rest your creative prowess.</p>
+                  <p class="text-desc text--medium">Freedom to build solutions to your own problems and truly show the rest your creative prowess.</p>
                   
                 </div>
               </div>
@@ -100,8 +100,9 @@ body {
         align-items: center;
         font-weight: 900;
         font-size: 30px;
-        margin-left: 8%;
         margin-bottom : 5vh;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:1.5rem;
 }
 .main {
   display: grid;
@@ -119,6 +120,17 @@ body {
   font-weight: 400;
   color: black;
 }
+/* .text-desc{
+  animation: Slide_Up 1.5s ease;
+  display:block;
+  opacity: 1.5;
+} */
+
+/* .card:hover{
+  height: 200px;
+  transform: translateY(-100px);
+  transform: scale(0.5);
+} */
 
 .cards{
   grid-column: 2 / span 12;
@@ -153,8 +165,9 @@ body {
   padding-top: 56.25%;
   overflow: hidden;
   position: relative;
+  background-color: white;
+  border-radius: 13% 13% 0% 0%;
 }
-
 .card__image-container img {
   width: 100%;
   position: absolute;
@@ -233,4 +246,20 @@ body {
   }
 }
 
+    
+    @keyframes Slide_Up{
+      0%{
+          transform:translateY(200px);
+          opacity: 0;
+      }
+    
+      40%{
+          opacity: 0;
+      }
+    
+      100%{
+          transform:translateY(0);
+          opacity: 1.5;
+      }
+    }
 </style>

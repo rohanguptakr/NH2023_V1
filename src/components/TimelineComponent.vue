@@ -3,7 +3,7 @@
         <h1 class="container">Timeline</h1>
   </section>
     
-    <section class="timeline">
+    <!-- <section class="timeline">
       <ul>
         <li>
           <div>
@@ -66,10 +66,28 @@
           </div>
         </li>
       </ul>
-    </section>
+    </section> -->
+    <div class="coming-img">
+      <img :src="require('../assets/TimelineTBA.png')" alt="To be announced"/>
+      <p class="ann">To be announced</p>
+    </div>
 </template>
 
 <style>
+.coming-img{
+  padding-bottom : 10vh;
+  display:flex;
+  justify-content: space-evenly;
+}
+.ann{
+  padding:25vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:900;
+  font-size:2rem;
+}
+.coming-img img{
+  height : 50vh;
+}
   *,
 *::before,
 *::after {
@@ -81,6 +99,8 @@ box-sizing: border-box;
   margin-left : 10%;
   margin-bottom : 5vh;
   font-weight: 900;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:1.5rem;
 }
 
 .intro{

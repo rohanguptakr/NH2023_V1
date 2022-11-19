@@ -31,6 +31,8 @@
     margin-top: 5%;
     font-weight: 900;
     padding-left: 10rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:1.5rem;
   }
 
   .logos{

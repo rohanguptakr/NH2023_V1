@@ -17,6 +17,8 @@
         margin-top : 0;
         position: relative;
         top :50px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:1.5rem;
     }
     .para2{
         font-family: 'Lucida Sans', 'Lucida Sans Regular';

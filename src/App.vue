@@ -1,7 +1,7 @@
 <template>
   <NavbarComponent />
   <AboutComponent />
-  <TempTracksComp />
+  <FinalTracks />
   <PrizesComponent />
   <TimelineComponent />
   <SponsorsComponent />
@@ -16,7 +16,7 @@ import NavbarComponent from "./components/NavbarComponent.vue";
 import TeamsComponent from "./components/TeamsComponent.vue";
 import TimelineComponent from "./components/TimelineComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
-import TempTracksComp from "./components/TempTracksComp.vue";
+import FinalTracks from "./components/FinalTracks.vue"
 import SponsorsComponent from "./components/SponsorsComponent.vue";
 import FaqComponent from "./components/FaqComponent.vue";
 import AboutComponent from "./components/AboutComponent.vue";
@@ -29,7 +29,7 @@ export default {
   components: {
     NavbarComponent,
     TimelineComponent,
-    TempTracksComp,
+    FinalTracks,
     TeamsComponent,
     FooterComponent,
     SponsorsComponent,
@@ -74,5 +74,12 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   opacity: 0.5;
   /* border: 3px solid var(--scrollbarBG); */
+}
+
+.heading-text{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight:900;
+
 }
 </style>
