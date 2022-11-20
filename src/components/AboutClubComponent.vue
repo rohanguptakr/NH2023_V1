@@ -52,6 +52,7 @@
         padding-bottom: 15%;
         position: relative;
         left: 0px;
+        font-size:1.5rem;
     }
 
     .para2 p{

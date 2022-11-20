@@ -1,6 +1,6 @@
 <template>
 	<div class="wrapper" id="teams">
-		<h1 class="team">Team</h1>
+		<h1 class="team">Our Team</h1>
     <figure class="frame">
         <div class="carousel dissolve">
           <div class="items">
@@ -33,7 +33,7 @@
 	font-weight: 900;
 	margin-left : 10%;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size:1.5rem;
+        font-size:1.7rem;
 }
     @import url(https://fonts.googleapis.com/css?family=Trykker);
 .dissolve {
@@ -49,7 +49,7 @@
 	left: 0;
 	right: 0;
 	opacity: 0;
-	animation: dissolve 33s linear infinite;
+	animation: dissolve 36s linear infinite;
 }
 .wrapper{
 	background-color: var(--bgBlue);

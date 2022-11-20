@@ -1,6 +1,14 @@
 <template>
     <h3 class="" style="color: white; margin-top:1%; font-size:1rem;">
         Hackathon by The Dept. of CSE, NMIT 
+    </h3><br>
+    <h3 class="" style="color: white; margin-top:1%; font-size:1rem;">
+        21st to 22nd April, 2023 
+    </h3>
+    <h3 class="" style="color: white; margin-top:1%; font-size:1rem;">
+        <a class="map" href="https://www.google.com/maps/place/Nitte+Meenakshi+Institute+of+Technology/@13.1284641,77.5851193,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae170d10bb559b:0x2bb3892a626cf9ba!8m2!3d13.1284641!4d77.587308?shorturl=1">
+        NITTE Meenakshi Institute of Technology
+        </a>
     </h3>
     <div class="pos-for-button">
         <button class="glow-on-hover" type="button">    <svg class="logo-dev" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.46 123.46" fill="#27333f">
@@ -30,6 +38,7 @@ View Results</button>
         text-align: center;
     }
     button{
+        display:none;
         position: absolute;
         top: 85%;
         left: 50%;
@@ -65,6 +74,11 @@ View Results</button>
     position: relative;
     z-index: 0;
     border-radius: 10px;
+}
+
+.map{
+    text-decoration: none;
+    color: white;
 }
 
 .glow-on-hover:before {

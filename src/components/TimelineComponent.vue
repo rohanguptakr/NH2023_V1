@@ -75,7 +75,7 @@
 
 <style>
 .coming-img{
-  padding-bottom : 0vh;
+  padding-bottom : 9vh;
   display:flex;
   justify-content: space-evenly;
   flex-wrap : wrap;
@@ -102,7 +102,7 @@ box-sizing: border-box;
   margin-bottom : 5vh;
   font-weight: 900;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size:1.5rem;
+        font-size:1.8rem;
 }
 
 .intro{

@@ -83,6 +83,7 @@
         font-size: 30px;
         margin-left: 8%;
         margin-bottom : 5vh;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .cards_wrap{

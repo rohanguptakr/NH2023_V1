@@ -65,6 +65,7 @@
         margin-bottom : 5vh;
         margin-top: 40px;
         font-weight: 900;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     #second{
@@ -181,6 +182,7 @@
       font-size:1.4rem;
       font-weight: 900;
       margin-top: 40px;
+      padding-top: 2vh;
       color: var(--bgYellow);
     }
     

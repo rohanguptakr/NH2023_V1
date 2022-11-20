@@ -132,7 +132,7 @@ nav {
   left: 0;
   height: 100%;
   width: 0%;
-  z-index: 10;
+  z-index: 999;
   opacity: 0;
   transition: all 600ms cubic-bezier(0.62, 0.04, 0.3, 1.56);
   transition-delay: 100ms;

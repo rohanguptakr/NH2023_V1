@@ -95,9 +95,9 @@ on hackathon@nmit.ac.in
     color:var(--bgBlue);
     font-weight: bold;
     text-align: left;
-    margin-left : 10%;
+    margin-left : 9%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size:1.5rem;
+        font-size:1.6rem;
 }
 .maindiv{
   font-family: 'Roboto', sans-serif;
@@ -144,7 +144,7 @@ h1{
 .expanded{
   color:#000;
   background-color: #dae157;
-  border:solid var(--bgBlue);
+  /* border:groove var(--bgBlue); */
   transition: all .3s ease-in-out;
   margin-bottom: 0.5%;
 }
