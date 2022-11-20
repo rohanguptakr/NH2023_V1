@@ -75,9 +75,10 @@
 
 <style>
 .coming-img{
-  padding-bottom : 10vh;
+  padding-bottom : 0vh;
   display:flex;
   justify-content: space-evenly;
+  flex-wrap : wrap;
 }
 .ann{
   padding:25vh;
@@ -86,7 +87,8 @@
   font-size:2rem;
 }
 .coming-img img{
-  height : 50vh;
+  height : auto;
+  width : 50%;
 }
   *,
 *::before,
@@ -206,6 +208,10 @@ margin-bottom: 8px;
 .timeline ul li {
   margin-left: 20px;
   padding-top: 10px;
+}
+.coming-img img{
+  width : 100%;
+  height : auto;
 }
 .timeline ul li div {
   width: calc(100vw - 91px);

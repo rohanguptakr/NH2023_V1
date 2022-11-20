@@ -106,6 +106,9 @@ body{
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         grid-template-rows: repeat(4, 120px);
     }
+    .logo{
+      height : 5vh;
+    }
 }
 @media (max-width : 900px){
     .contain{
