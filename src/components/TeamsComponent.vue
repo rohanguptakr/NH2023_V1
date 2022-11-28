@@ -1,5 +1,6 @@
 <template>
-	<div class="wrapper" id="teams">
+	<div class="transkew-2">
+		<div class="wrapper" id="teams">
 		<h1 class="team">Our Team</h1>
     <figure class="frame">
         <div class="carousel dissolve">
@@ -18,6 +19,7 @@
         </div>
     </figure>
 	</div>
+	</div>
 </template>
 
 <script>
@@ -27,6 +29,10 @@
 </script>
 
 <style>
+.transkew-2 {
+   -webkit-clip-path: polygon(0 0, 100% 3%, 100% 96%, 0 100%);
+  clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 96%);
+}
 .team{
 	color:var(--bgYellow);
 	padding-top: 5vh;

@@ -1,5 +1,5 @@
 <template>
-    <div class="con" id="about">
+    <div class="con" id="about-us">
         <h1 class="h3">About Us</h1>
         <div class="para2">
            <p> NMIT Hacks, the Annual National Level Hackathon of CSE Department, NMIT, has been going strong since the year 2015 and has been providing all the enthusiastic participants with a platform to bring any ideas, small or big, into life.</p><br>

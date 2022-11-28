@@ -1,15 +1,15 @@
 <template>
-    <h3 class="" style="color: white; margin-top:1%; font-size:1rem;">
+    <div class="info-hacks">
+        <p class="text-hacks">
         Hackathon by The Dept. of CSE, NMIT 
-    </h3><br>
-    <h3 class="" style="color: white; margin-top:1%; font-size:1rem;">
-        21st to 22nd April, 2023 
-    </h3>
-    <h3 class="" style="color: white; margin-top:1%; font-size:1rem;">
-        <a class="map" href="https://www.google.com/maps/place/Nitte+Meenakshi+Institute+of+Technology/@13.1284641,77.5851193,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae170d10bb559b:0x2bb3892a626cf9ba!8m2!3d13.1284641!4d77.587308?shorturl=1">
-        NITTE Meenakshi Institute of Technology
+    </p>
+    <br>
+    <p class="text-hacks">
+        21st-22nd April, 2023 <br><a class="map" href="https://www.google.com/maps/place/Nitte+Meenakshi+Institute+of+Technology/@13.1284641,77.5851193,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae170d10bb559b:0x2bb3892a626cf9ba!8m2!3d13.1284641!4d77.587308?shorturl=1">
+        <p class="text-hacks">Nitte Meenakshi Institute of Technology, Bengaluru</p>
         </a>
-    </h3>
+    </p>
+    </div>
     <div class="pos-for-button">
         <button class="glow-on-hover" type="button">    <svg class="logo-dev" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.46 123.46" fill="#27333f">
         <path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 
@@ -30,12 +30,22 @@ View Results</button>
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     h3{
         position: relative;
         top: 29vh;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+    }
+    .info-hacks{
+        color: white; margin-top:1%; font-size:1rem;
+        position: relative;
+        top:30vh;
+        padding : 5vw;
+    }
+    .text-hacks{
+        font-family: 'Roboto', sans-serif;
     }
     button{
         display:none;
@@ -79,6 +89,7 @@ View Results</button>
 .map{
     text-decoration: none;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .glow-on-hover:before {
@@ -142,6 +153,9 @@ View Results</button>
         top: 40vh;
         left:22vw;
     }
+    .info-hacks{
+        font-size:0.8rem;
+    }
     }
 
     @media (max-width: 900px) {
@@ -158,6 +172,10 @@ View Results</button>
         position: absolute;
         top: 40vh;
         left:22vw;
+    }
+    .info-hacks{
+        position: relative;
+        top:30vh;
     }
     }
 </style>

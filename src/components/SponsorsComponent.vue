@@ -1,6 +1,6 @@
 <template>
     <section class="sponhead">
-        <h1 class="contain">Sponsors</h1>
+        <h1 class="contain" id="sponsors">Sponsors</h1>
   </section>
     <!-- <div class="container3">
     <div><img class="logo" :src="require('../assets/devfolio-temp.png')"></div>
@@ -107,7 +107,7 @@ body{
         grid-template-rows: repeat(4, 120px);
     }
     .logo{
-      height : 5vh;
+      height : 12vh;
     }
 }
 @media (max-width : 900px){

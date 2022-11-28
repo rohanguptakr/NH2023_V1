@@ -1,5 +1,5 @@
 <template>
-     <div class="footer-basic" id="contact">
+     <div class="footer-basic" id="footer">
         <footer>
           <h1 class="contact">Contact Us</h1>
           <div class="logos">

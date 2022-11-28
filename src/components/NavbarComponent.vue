@@ -1,5 +1,5 @@
 <template>
-  <div class="star-container" id="home">
+    <div class="star-container" id="home">
     <div id="stars"></div>
 <div id="stars2"></div>
 <div id="stars3"></div>
@@ -17,13 +17,13 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#tracks">Tracks</a></li>
+          <li><a id="#tracks" href="#tracks" ref="tracks" @click="handleScroll">Tracks</a></li>
           <li><a href="#prizes">Prizes</a></li>
-          <li><a href="#time">Timeline</a></li>
-          <li><a href="#home">Sponsors</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
           <li><a href="#teams">Teams</a></li>
           <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#footer">Contact Us</a></li>
         </ul>
       
       </nav>
@@ -37,7 +37,6 @@
 
 <script>
 import DevfolioComponent from "./DevfolioComponent.vue";
-
 import SvgComponent from "./SvgComponent.vue";
     export default {
       name : "NavbarComponent",
@@ -54,12 +53,17 @@ import SvgComponent from "./SvgComponent.vue";
           this.$refs.icon3.classList.toggle("b");
           this.$refs.nav.classList.toggle("show");
           this.$refs.blue.classList.toggle("blue");
+        },
+        handleScroll(){
+          const element = document.getElementById("tracks")
+          element.scrollIntoView();
         }
       },
     }
 </script>
 
 <style>
+
 .star-container{
   position: relative;
   height : 100vh;

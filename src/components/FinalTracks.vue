@@ -1,6 +1,7 @@
 <template>
-    <div class="container9">
-        <h1 class="tracks-header" style="color:#ecf27c; padding-top:5vh;">Tracks</h1>
+    <div class="transkew">
+      <div class="container9">
+        <h1 id="tracks"  class="tracks-header" style="color:#ecf27c; padding-top:5vh;">Tracks</h1>
     <div class="container-tracks">
         <div class="tracks-card" style="--color: #89ec5b">
     <div class="content-tracks">
@@ -59,11 +60,16 @@
   </div>
 </div>
     </div>
+    </div>
+    
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
-
+.transkew {
+   -webkit-clip-path: polygon(0 0, 100% 3%, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 3%, 100% 96%, 0 100%);
+}
 * {
   margin: 0;
   padding: 0;
@@ -73,6 +79,8 @@
 .container9{
     background-color: #080518;
     padding-bottom:10vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
 }
 .container-tracks {
   position: relative;
@@ -108,7 +116,8 @@
 }
 .tracks-header{
     margin-left:10%;
-    margin-bottom:7vh;
+    margin-bottom:0vh;
+    margin-top : 5vh;
     font-weight:900;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:1.5rem;

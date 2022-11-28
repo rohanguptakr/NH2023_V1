@@ -1,5 +1,6 @@
 <template>
-  <section class="intro" id="time">
+  <div class="timeline-container">
+    <section class="intro" id="timeline">
         <h1 class="container">Timeline</h1>
   </section>
     
@@ -71,20 +72,30 @@
       <img :src="require('../assets/TimelineTBA.png')" alt="To be announced"/>
       <p class="ann">To be announced</p>
     </div>
+  </div>
+ 
 </template>
 
 <style>
+.timeline-container{
+  background-color : var(--bgBlue);
+  margin-bottom : 5vh;
+  padding-bottom : 7vh;
+   -webkit-clip-path: polygon(0 0, 100% 3%, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 3%, 100% 96%, 0 100%);
+}
 .coming-img{
-  padding-bottom : 9vh;
+  padding-bottom : 0vh;
   display:flex;
   justify-content: space-evenly;
   flex-wrap : wrap;
 }
 .ann{
-  padding:25vh;
+  padding-top:25vh;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight:900;
-  font-size:2rem;
+  font-size:1rem;
+  color : var(--bgYellow)
 }
 .coming-img img{
   height : auto;
@@ -98,11 +109,13 @@ padding: 0;
 box-sizing: border-box;
 }
 .container{
+  padding-top : 5vh;
   margin-left : 10%;
   margin-bottom : 5vh;
   font-weight: 900;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size:1.8rem;
+        font-size:1.5rem;
+  color : var(--bgYellow);
 }
 
 .intro{
@@ -226,6 +239,11 @@ margin-bottom: 8px;
 }
 .container{
   padding-left : 8%;
+}
+.ann{
+  font-size : 1.3rem;
+  padding-bottom : 5vh;
+  padding-top : 5vh;
 }
 }
 </style>
