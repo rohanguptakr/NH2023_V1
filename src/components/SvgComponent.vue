@@ -1,5 +1,5 @@
 <template>
-    <svg width="300" height="300" viewBox="0 0 167 209" fill="none" xmlns="http://www.w3.org/2000/svg" id="logo" class="content">
+    <svg width="250" height="250" viewBox="0 0 167 209" fill="none" xmlns="http://www.w3.org/2000/svg" id="logo" class="content">
   <g clip-path="url(#clip0_83_428)">
   <path d="M81 97.9L67.5 90.4L43.2999 42.3L43.7 77.5L34.5999 72.5L34.2 26.7L47.5999 32.9L70.5 77.5V43.5L81 48.4V97.9Z" fill="#080518" stroke="#ECF27C" stroke-miterlimit="10"/>
   <path d="M85.3 97.9L85.1 48.4L96.4 43.2V62.8L122.3 49.9V31.2L132.1 26.7V72L122.4 77.4L122.3 59L96.5 72.4V91.7L85.3 97.9Z" fill="#080518" stroke="#ECF27C" stroke-miterlimit="10"/>
@@ -48,7 +48,7 @@
           strokeDashoffset: [anime.setDashoffset, 0],
           fill:"#ecf27c",
           easing: 'easeInOutSine',
-          duration: 2000,
+          duration: 10000,
           delay: function(el, i) { return i * 250 },
           direction: 'alternate',
           loop: false
@@ -74,6 +74,7 @@
           animation: shotup 1000ms ease-in-out;
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
+  margin-bottom:10vh;
   }
   
   .cls-1,.cls-2{

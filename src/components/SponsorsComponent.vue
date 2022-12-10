@@ -2,23 +2,25 @@
     <section class="sponhead">
         <h1 class="contain" id="sponsors">Sponsors</h1>
   </section>
-    <!-- <div class="container3">
-    <div><img class="logo" :src="require('../assets/devfolio-temp.png')"></div>
-    <div><img class="logo" :src="require('../assets/polygon-temp.png')"></div>
-    <div><img class="logo" :src="require('../assets/Sakha-Global-temp.png')"></div>
-    <div><img class="logo" :src="require('../assets/devfolio-temp.png')"></div>
-</div> -->
-<div class="container-sponsors">
+    <div class="container3">
+      <img class="logo" :src="require('../assets/Devfolio_Logo-Colored.png')">
+      <img class="logo" :src="require('../assets/Polygon_Logo-Colored.png')">
+      <img class="logo" :src="require('../assets/Filecoin Coloured White Text.png')">
+      <img class="logo" :src="require('../assets/Solana-Colored.png')">
+      <img class="logo" :src="require('../assets/Replit-light-background.png')">
+</div>
+
+<!-- <div class="container-sponsors">
   <div class="wrapper-sponsors">
     <div class="content-sponsors">
-      <div class="item-sponsors">
+      <div class="item-sponsors"> -->
         <!-- Place your content here to have it be centered vertically and horizontally  -->
-        <h1 class="h1-sponsors logo">Revealing shortly!!!</h1>
+        <!-- <h1 class="h1-sponsors logo">Revealing shortly!!!</h1>
         <p class="p-sponsors">For personalised sponsorship benefits contact us on <a href="mailto:Hackathon@nmit.ac.in" class="email">Hackathon@nmit.ac.in</a></p>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 </template>
 
 <script>
@@ -64,7 +66,7 @@ export default {
 
 .container3 {
 	display: grid;
-	grid-gap: 5px;
+	grid-gap: 5%;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-template-rows: repeat(2, 150px);
     margin-bottom: 8%;
@@ -89,6 +91,7 @@ body{
         transform: translate(0, 2vh);
         transition: all 0.5s;
         height : 10vh;
+
         /* width: 500px; */
         /* Use the width as 500px when removing the placeholder  */
         margin: auto;
@@ -104,10 +107,10 @@ body{
     .container3{
         margin : 0 auto;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        grid-template-rows: repeat(4, 120px);
+        grid-template-rows: repeat(6, 120px);
     }
     .logo{
-      height : 12vh;
+      height : 6vh;
     }
 }
 @media (max-width : 900px){
@@ -115,9 +118,9 @@ body{
         padding-left : 8%;
     }
     .container3{
-        margin : 0 auto;
+        margin :5vw auto;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        grid-template-rows: repeat(4, 120px);
+        grid-template-rows: repeat(6, 120px);
     }
 }
 

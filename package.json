@@ -14,7 +14,8 @@
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
     "locomotive-scroll": "^4.1.4",
-    "vue": "^3.2.41"
+    "vue": "^3.2.41",
+    "vue-hooks": "^0.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

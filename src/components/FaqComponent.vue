@@ -29,7 +29,7 @@
     <h2 class="question">4. What large should a team be?
 </h2><span class="faq-t"></span>
     </div>
-    <p class="answer">A team should be between 2-5 people, if you don't have a team yet you can still apply because you will have the chance to join a team onsight.</p>
+    <p class="answer">A team should be between 2-4 people, if you don't have a team yet you can still apply because you will have the chance to join a team onsight.</p>
   </div>
   <div class="topic">
     <div class="open">
@@ -106,6 +106,7 @@ on hackathon@nmit.ac.in
   padding-top: 40px;
   padding-bottom: 40px;
   margin-bottom: 0;
+  min-height : 100vh;
 }
 main{
   display:block;
@@ -171,7 +172,6 @@ h1{
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  display: inline-block;
   float: right;
   position:relative;
   top:-55px;
@@ -239,7 +239,7 @@ h1{
 @media (min-width:1500px){
   main{
     width: 50vw;
-    max-height: 80vh;
+    min-height: 80vh;
   }
 }
 
