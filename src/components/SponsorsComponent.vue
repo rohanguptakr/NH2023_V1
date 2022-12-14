@@ -2,13 +2,15 @@
     <section class="sponhead">
         <h1 class="contain" id="sponsors">Sponsors</h1>
   </section>
-    <div class="container3">
-      <img class="logo" :src="require('../assets/Devfolio_Logo-Colored.png')">
-      <img class="logo" :src="require('../assets/Polygon_Logo-Colored.png')">
-      <img class="logo" :src="require('../assets/Filecoin Coloured White Text.png')">
-      <img class="logo" :src="require('../assets/Solana-Colored.png')">
-      <img class="logo" :src="require('../assets/Replit-light-background.png')">
-</div>
+    <div class="container3-platinum">
+      <a href="https://devfolio.co/" target="_blank"><img class="logo" :src="require('../assets/Devfolio_Logo-Colored.png')"></a>
+      <a href="https://polygon.technology/" target="_blank"><img class="logo" :src="require('../assets/Polygon_Logo-Colored.png')"></a>
+    </div>
+    <div class="container3-gold">
+      <a href="https://filecoin.io/" target="_blank"><img class="logo" :src="require('../assets/Filecoin Coloured White Text.png')"></a>
+      <a href="https://solana.com/" target="_blank"><img class="logo" :src="require('../assets/Solana-Colored.png')"></a>
+      <a href="https://replit.com/" target="_blank"><img class="logo" :src="require('../assets/Replit-light-background.png')"></a>
+    </div>
 
 <!-- <div class="container-sponsors">
   <div class="wrapper-sponsors">
@@ -21,6 +23,13 @@
     </div>
   </div>
 </div> -->
+<section class="sponhead">
+        <h1 class="contain" id="sponsors">Platform Sponsors</h1>
+  </section>
+  <div class="platform-sponsors">
+    <a href="https://www.wolfram.com/language/" target="_blank"><img class="logo wolfram" :src="require('../assets/Hackathon Logo Wolfram 2022 resizable Vector-1.png')"></a>
+    
+  </div>
 </template>
 
 <script>
@@ -47,6 +56,36 @@ export default {
 </script>
 
 <style>
+.container3-platinum{
+  width : 70vw;
+  margin : 0 auto;
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap : wrap;
+  margin-bottom : 10vh;
+}
+.container3-gold{
+  width : 80vw;
+  margin : 0 auto;
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap : wrap;
+  margin-bottom : 10vh;
+}
+.platform-sponsors{
+  width : 70vw;
+  margin : 0 auto;
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap : wrap;
+  margin-bottom : 10vh;
+}
 .email{
     text-decoration: none;
     font-weight:900;
@@ -64,20 +103,20 @@ export default {
         font-size:1.8rem;
     }    
 
-.container3 {
+/* .container3 {
 	display: grid;
 	grid-gap: 5%;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
 	grid-template-rows: repeat(2, 150px);
     margin-bottom: 8%;
     margin-left: 20%;
     margin-right: 20%;
-}
+} */
 
-.container3 div{
+/* .container3 div{
     margin: 0 auto;
     padding: 8%;
-}
+} */
 
 body{
         margin:0;
@@ -94,7 +133,8 @@ body{
 
         /* width: 500px; */
         /* Use the width as 500px when removing the placeholder  */
-        margin: auto;
+        /* margin: auto; */
+        margin : 3vh;
 }
 .logo.visible {
         opacity: 1;
@@ -104,24 +144,32 @@ body{
     .contain{
         padding-left : 8%;
     }
-    .container3{
+    /* .container3{
         margin : 0 auto;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         grid-template-rows: repeat(6, 120px);
+    } */
+    .container3-platinum{
+      margin-right : 20vw;
+      margin-bottom : 0;
+    }
+    .container3-gold{
+      margin-right : 20vw;
     }
     .logo{
       height : 6vh;
     }
 }
+
 @media (max-width : 900px){
     .contain{
         padding-left : 8%;
     }
-    .container3{
+    /* .container3{
         margin :5vw auto;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         grid-template-rows: repeat(6, 120px);
-    }
+    } */
 }
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);

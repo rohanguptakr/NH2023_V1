@@ -136,7 +136,7 @@ top: 0;
 left: 0;
 height: 100%;
 width: 0%;
-z-index: 999;
+z-index: -1;
 opacity: 0;
 transition: all 600ms cubic-bezier(0.62, 0.04, 0.3, 1.56);
 transition-delay: 100ms;
@@ -163,6 +163,7 @@ cursor: pointer;
 nav.show {
 width: 30%;
 opacity: 1;
+z-index: 100;
 }
 .cls-1,.cls-2{
     fill:#ecf27c;
