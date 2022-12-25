@@ -49,7 +49,7 @@ export default {
     .info-hacks{
         color: white; margin-top:1%; font-size:1rem;
         position: relative;
-        top:15vh;
+        top:10vh;
         padding : 5vw;
         z-index:1;
     }
