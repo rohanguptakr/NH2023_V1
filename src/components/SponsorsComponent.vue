@@ -10,6 +10,7 @@
       <a href="https://filecoin.io/" target="_blank"><img class="logo" :src="require('../assets/Filecoin Coloured White Text.png')"></a>
       <a href="https://solana.com/" target="_blank"><img class="logo" :src="require('../assets/Solana-Colored.png')"></a>
       <a href="https://replit.com/" target="_blank"><img class="logo" :src="require('../assets/Replit-light-background.png')"></a>
+      <a href="https://givemycertificate.com/" target="_blank"><img class="logo" :src="require('../assets/GMC LogoS.png')"></a>
     </div>
 
 <!-- <div class="container-sponsors">
@@ -67,7 +68,7 @@ export default {
   margin-bottom : 10vh;
 }
 .container3-gold{
-  width : 80vw;
+  width : 85vw;
   margin : 0 auto;
   display : flex;
   flex-direction: row;
@@ -154,10 +155,10 @@ body{
       margin-bottom : 0;
     }
     .container3-gold{
-      margin-right : 20vw;
+      margin-right : 10vw;
     }
     .logo{
-      height : 6vh;
+      height : 8vh;
     }
 }
 
