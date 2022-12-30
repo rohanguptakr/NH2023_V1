@@ -41,6 +41,8 @@
       <div class="icon-tracks">
         <ion-icon name="logo-bitcoin"></ion-icon>
       </div>
+
+      
       <div class="text-tracks">
         <h3 class="tracks-type">Blockchain</h3>
         <p class="tracks-desc">Use the blockchain to create innovative solutions by bringing together several technologies here.</p>
@@ -96,7 +98,7 @@
 
 .tracks-card {
   position: relative;
-  width: 270px;
+  width: 290px;
   height: 300px;
   background: #2e2e2e;
   display: flex;
