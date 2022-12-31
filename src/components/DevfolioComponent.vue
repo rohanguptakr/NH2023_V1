@@ -26,10 +26,20 @@
 
 <script>
 // import { withHooks, useState, useEffect } from "vue-hooks";
+import { watchEffect} from 'vue';
 export default {
     name : "DevfolioComponent",
-    methods : {
-
+    setup() {
+        watchEffect(()=>{
+            const script = document.createElement('script');
+            script.src = 'https://apply.devfolio.co/v2/sdk.js';
+            script.async = true;
+            script.defer = true;
+            document.body.appendChild(script);
+            return () => {
+                document.body.removeChild(script);
+            }
+        }, [])
     }
 }
 </script>
