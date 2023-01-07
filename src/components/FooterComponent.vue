@@ -8,8 +8,8 @@
           </div>
             <p class="text">Follow Us</p>
             <div class="social"><a href="https://www.instagram.com/nmit_hacks/" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href="https://twitter.com/NMIT_Hacks" target="_blank"><i class="fa-brands fa-twitter"></i></a><a href="https://www.facebook.com/nmit.hacks.50" target="_blank"><i class="fa-brands fa-facebook"></i></a><a href="https://www.linkedin.com/in/nmit-hacks-8082531bb/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
-            <p class="code"><a href="" class="conduct">Code of Conduct</a></p>
-            <p class="code"><a href="mailto: hackathon@nmit.ac.in" class="conduct">hackathon@nmit.ac.in</a></p>
+            <p class="code"><a href="https://devfolio.co/code-of-conduct" class="conduct">Code of Conduct</a></p>
+            <p class="code"><a href="mailto: hackathon@nmit.ac.in" class="conduct">Email us at: hackathon@nmit.ac.in</a></p>
             <p class="end">Made with ❤️ by Nmit-Hacks</p>
         </footer>
     </div>

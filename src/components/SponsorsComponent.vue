@@ -10,7 +10,6 @@
       <a href="https://filecoin.io/" target="_blank"><img class="logo" :src="require('../assets/Filecoin Coloured White Text.png')"></a>
       <a href="https://solana.com/" target="_blank"><img class="logo" :src="require('../assets/Solana-Colored.png')"></a>
       <a href="https://replit.com/" target="_blank"><img class="logo" :src="require('../assets/Replit-light-background.png')"></a>
-      <a href="https://givemycertificate.com/" target="_blank"><img class="logo" :src="require('../assets/GMC LogoS.png')"></a>
     </div>
 
 <!-- <div class="container-sponsors">
@@ -29,7 +28,8 @@
   </section>
   <div class="platform-sponsors">
     <a href="https://www.wolfram.com/language/" target="_blank"><img class="logo wolfram" :src="require('../assets/Hackathon Logo Wolfram 2022 resizable Vector-1.png')"></a>
-    
+    <a href="https://givemycertificate.com/" target="_blank"><img class="logo" :src="require('../assets/GMC LogoS.png')"></a>
+
   </div>
 </template>
 

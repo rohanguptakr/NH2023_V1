@@ -14,7 +14,7 @@
         <div
 	class="apply-button devfolio"
     ref="button-devfolio"
-	data-hackathon-slug="nmit-hacks"
+	data-hackathon-slug="nmithacks"
 	data-button-theme="light"
             :style="{height : `10px`, width : `312px`, padding:`2vh`}"
 ></div>

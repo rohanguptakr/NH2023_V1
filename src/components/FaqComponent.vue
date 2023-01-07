@@ -26,7 +26,7 @@
   </div>
   <div class="topic">
     <div class="open">
-    <h2 class="question">4. What large should a team be?
+    <h2 class="question">4. How large should a team be?
 </h2><span class="faq-t"></span>
     </div>
     <p class="answer">A team should be between 2-4 people, if you don't have a team yet you can still apply because you will have the chance to join a team onsight.</p>
