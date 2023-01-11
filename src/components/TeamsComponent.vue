@@ -5,16 +5,9 @@
     <figure class="frame">
         <div class="carousel dissolve">
           <div class="items">
-            <img class="item" src="../assets/Aditya.png" alt="Aditya">
-            <img class="item" :src="require('../assets/Ekeswar.png')" alt="Ekeswar">
-            <img class="item" :src="require('../assets/Madhumitha.png')" alt="Madhumitha">
-            <img class="item" :src="require('../assets/Onkar.png')" alt="Onkar">
-            <img class="item" :src="require('../assets/Tejashree.png')" alt="Tejashree">
-            <img class="item" :src="require('../assets/Ashwin.png')" alt="Ashwin">
-			<img class="item" :src="require('../assets/Nitin.png')" alt="Nitin">
-			<img class="item" :src="require('../assets/Shravan.png')" alt="Shravan">
-			<img class="item" :src="require('../assets/Smita.png')" alt="Smita">
-			<img class="item" :src="require('../assets/Vikitha.png')" alt="Vikitha">
+			<button class="btn prev" @click="prev">{{prevSign}}</button>
+			<img :src="require('../assets/'+imgs[counter]+'.png')" alt="">
+			<button class="btn next" @click="next">{{nextSign}}</button>
            </div>
         </div>
     </figure>
@@ -24,11 +17,49 @@
 
 <script>
     export default{
-
+		name:"TeamsComponent",
+		data(){
+			return{
+				timer:null,
+				counter:0,
+				prevSign:"<",
+				nextSign:">",
+				imgs: ['Aditya','Ekeswar','Ashwin','Madhumitha','Nitin','Onkar','Shravan','Smita','Tejashree','Vikitha']
+			}
+		},
+		mounted: function()
+		{
+			this.startShow();
+		},
+		methods:{
+			startShow: function(){
+					this.timer = setInterval(this.next, 6000);
+			},
+			next(){
+				if(this.counter==this.imgs.length-1) this.counter=0;
+				else this.counter++;
+			},
+			prev(){
+				if(this.counter==0) this.counter = this.imgs.length-1;
+				else this.counter--;
+			}
+		},
     }
 </script>
 
 <style>
+.btn{
+	height: 5%;
+	width:3.5%;
+	border: 0;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: rgb(128, 128, 128);
+}
+.next{
+	margin-left: 2%;
+}
 .transkew-2 {
    -webkit-clip-path: polygon(0 0, 100% 3%, 100% 96%, 0 100%);
   clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 96%);
@@ -50,12 +81,10 @@
 	position: relative;
 	overflow: hidden;
 }
-.dissolve .item {
-    position: absolute;
-	left: 0;
-	right: 0;
-	opacity: 0;
-	animation: dissolve 36s linear infinite;
+.items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .wrapper{
 	background-color: var(--bgBlue);
@@ -66,72 +95,6 @@
 .frame{
 	background-color : #fff;
 }
-.dissolve .item:nth-child(2) {
-	animation-delay: 3s;
-}
-.dissolve .item:nth-child(3) {
-	animation-delay: 6s;
-}
-.dissolve .item:nth-child(4) {
-	animation-delay: 9s;
-}
-.dissolve .item:nth-child(5) {
-    animation-delay: 12s;
-}
-.dissolve .item:nth-child(6) {
-    animation-delay: 15s;
-}
-.dissolve .item:nth-child(7) {
-    animation-delay: 18s;
-}
-.dissolve .item:nth-child(8) {
-    animation-delay: 21s;
-}
-.dissolve .item:nth-child(9) {
-    animation-delay: 24s;
-}
-.dissolve .item:nth-child(10) {
-    animation-delay: 27s;
-}
-.dissolve .item:nth-child(11) {
-    animation-delay: 30s;
-}
-.dissolve .item:nth-child(12) {
-    animation-delay: 33s;
-}
-
-@-webkit-keyframes dissolve {
-	0%, 30%, 100% {
-		opacity: 0;
-	}
-	5%, 25% {
-		opacity: 1;
-	}
-}
-@-moz-keyframes dissolve {
-	0%, 30%, 100% {
-		opacity: 0;
-	}
-	5%, 25% {
-		opacity: 1;
-	}
-}
-@-ms-keyframes dissolve {
-	0%, 30%, 100% {
-		opacity: 0;
-	}
-	5%, 25% {
-		opacity: 1;
-	}
-}
-@keyframes dissolve {
-	0%, 30%, 100% {
-		opacity: 0;
-	}
-	5%, 25% {
-		opacity: 1;
-	}
-}
 img {
 	max-width: 100%;
     max-height: 100%;
@@ -139,11 +102,11 @@ img {
 }
 
 figure {
-	width: 400px;
+	width: 475px;
 	margin: 10px auto 0;
 }
 figure .carousel {
-	width: 400px;
+	width: 475px;
 	box-shadow: 0 0 0 10px #fff, 0 .3em .8em 10px black;
 }
 figure figcaption {
@@ -167,13 +130,10 @@ figure figcaption:before {
 figure figcaption:after {
     margin-left: .3em;
 }
-/* figure p {
-	color: #999;
-	text-align: center;
+button{
+	margin: 0;
+	padding: 0;
 }
-figure p a {
-	color: #06afd8;
-} */
 
 @media (max-width: 480px) {
     figure {
