@@ -72,10 +72,11 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;
   border-radius: 6px;
-  opacity: 0.5;
   /* border: 3px solid var(--scrollbarBG); */
 }
-
+body::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: #cdd26d;
+}
 .heading-text{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
