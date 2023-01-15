@@ -29,6 +29,7 @@
   <div class="platform-sponsors">
     <a href="https://www.wolfram.com/language/" target="_blank"><img class="logo wolfram" :src="require('../assets/Hackathon Logo Wolfram 2022 resizable Vector-1.png')"></a>
     <a href="https://givemycertificate.com/" target="_blank"><img class="logo" :src="require('../assets/GMC LogoS.png')"></a>
+    <a href="https://www.taskade.com/" target="_blank"><img class="logo" :src="require('../assets/logo_taskade_black.png')"></a>
 
   </div>
 </template>

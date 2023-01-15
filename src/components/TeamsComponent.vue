@@ -13,7 +13,7 @@
             <img class="item" :src="require('../assets/Ashwin.png')" alt="Ashwin">
 			<img class="item" :src="require('../assets/Nitin.png')" alt="Nitin">
 			<img class="item" :src="require('../assets/Shravan.png')" alt="Shravan">
-			<img class="item" :src="require('../assets/Smita.png')" alt="Smita">
+			<img class="item" :src="require('../assets/SmitaCarousel.png')" alt="Smita">
 			<img class="item" :src="require('../assets/Vikitha.png')" alt="Vikitha">
            </div>
         </div>
