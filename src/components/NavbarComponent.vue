@@ -107,13 +107,13 @@ export default {
 
 .menu-btn i {
   color: #ecf27c;
-  font-size: 40px;
+  font-size: 30px;
   cursor: pointer;
   display: none;
 }
 
 .nav1 {
-  height: 70px;
+  height: 55px;
   background: var(--bgBlue);
   display: flex;
   align-items: center;
@@ -123,6 +123,7 @@ export default {
 ul {
   display: flex;
   list-style: none;
+  margin-bottom: 0rem;
 }
 ul li {
   margin: 0 5px;
@@ -134,7 +135,7 @@ ul li a {
   font-weight: 500;
   letter-spacing: 1px;
 
-  padding: 8px 10px;
+  padding: 5px 10px;
   border-radius: 5px;
   transition: all 0.5s ease;
 }
@@ -147,7 +148,7 @@ ul li a:hover {
 }
 @media (max-width: 940px) {
   .nav1 {
-    height: 68px;
+    height: 55px;
     padding: 0px 30px 0px 30px;
   }
   .menu-btn i {
@@ -156,12 +157,12 @@ ul li a:hover {
 
   #click:checked ~ .menu-btn i::before {
     content: "\f00d";
-    font-size: 40px;
+    font-size: 35px;
   }
   ul {
     position: fixed;
     background: #ecf27c;
-    top: 65px;
+    top: 55px;
     right: -100%;
     height: 100%;
     width: 40%;
@@ -171,7 +172,7 @@ ul li a:hover {
     z-index: 1000;
   }
   #click:checked ~ ul {
-    right: 0;
+    right: 0px;
   }
   ul li {
     margin-top: 30px;
