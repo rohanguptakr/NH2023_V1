@@ -147,6 +147,15 @@ ul li a:hover {
   display: none;
 }
 @media (max-width: 940px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+
   .nav1 {
     height: 55px;
     padding: 0px 30px 0px 30px;
