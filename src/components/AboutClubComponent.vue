@@ -2,8 +2,8 @@
     <div class="con" id="about-us">
         <h1 class="h3">About Us</h1>
         <div class="para2">
-           <p> NMIT Hacks, the Annual National Level Hackathon of CSE Department, NMIT, has been going strong since the year 2015 and has been providing all the enthusiastic participants with a platform to bring any ideas, small or big, into life.</p><br>
-            <p>The theme of this Hackathon is Open-Innovation , which gives you the liberty to find innovative solutions to your own problem statements. Whether you’re a rookie coder or a seasoned veteran, all you need is a laptop, an idea, and a passion to code, to be a part of this event!</p><br>
+           <p> NMIT Hacks, the Annual National Level Hackathon of CSE Department, NMIT, has been going strong since the year 2015 and has been providing all the enthusiastic participants with a platform to bring their ideas, small or big, to life.</p><br>
+            <p>The theme of this Hackathon is Open-Innovation , which gives you the liberty to find innovative solutions to your own problem statements. Whether you’re a rookie coder or a seasoned veteran, all you need is a laptop, an idea, and the passion to code, to be a part of this event!</p><br>
             <p>To all the aspiring technopreneurs out there, here is your perfect opportunity to deal with a real-time problem that can bring about a change, and give wings to your imagination by providing the most innovative solution in the due course of 36 hours.</p><br>
         </div>
     </div>
