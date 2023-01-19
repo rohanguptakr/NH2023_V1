@@ -26,7 +26,7 @@
   </div>
   <div class="topic">
     <div class="open">
-    <h2 class="question">4. How large should a team be?
+    <h2 class="question">4. What should be the team size?
 </h2><span class="faq-t"></span>
     </div>
     <p class="answer">A team should be between 2-4 people, if you don't have a team yet you can still apply because you will have the chance to join a team onsight.</p>
@@ -49,7 +49,7 @@ on hackathon@nmit.ac.in
   </div>
   <div class="topic">
     <div class="open">
-    <h2 class="question">7. Can i start working on my hack before the event?
+    <h2 class="question">7. Can I start working on my hack before the event?
 </h2><span class="faq-t"></span>
     </div>
     <p class="answer">No. That would amount to cheating and you would be disqualified.</p>
