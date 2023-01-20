@@ -336,6 +336,8 @@ figure p a {
 	color: #06afd8;
 } */
 
+
+
 @media (max-width: 480px) {
   figure {
     width: 300px;
@@ -352,6 +354,9 @@ figure p a {
     padding-left: 8%;
     margin-bottom: -10vh;
   }
+  .carousel-inner {
+    margin-top: -147px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -359,10 +364,11 @@ figure p a {
     width: 300px;
     height: 300px;
     margin-bottom: 20%;
+    margin-top: 20%;
   }
-  .carousel-inner {
+  /* .carousel-inner {
     margin-top: -147px;
-  }
+  } */
   .carousel-indicators {
     bottom: 12px;
   }
