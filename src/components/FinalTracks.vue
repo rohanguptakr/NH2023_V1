@@ -214,5 +214,10 @@
         margin-bottom: 14%;
     } 
 } 
+@media (max-width:900px) {
+  .filler2{
+        margin-bottom: 9%;
+    } 
+} 
 
 </style>
