@@ -73,10 +73,15 @@
       <p class="ann">To be announced</p>
     </div>
   </div>
- 
+  <div class="filler4" id="newSponsors">
+    </div>
+    
 </template>
 
 <style>
+.filler4{
+        margin-bottom: 7%;
+    }
 .timeline-container{
   background-color : var(--bgBlue);
   margin-bottom : 5vh;
@@ -218,6 +223,9 @@ margin-bottom: 8px;
 }
 
 @media screen and (max-width: 600px) {
+  .filler4{
+        margin-bottom: 27%;
+    }
 .timeline ul li {
   margin-left: 20px;
   padding-top: 10px;
@@ -242,7 +250,7 @@ margin-bottom: 8px;
 }
 .ann{
   font-size : 1.3rem;
-  padding-bottom : 5vh;
+  padding-bottom : 0vh;
   padding-top : 5vh;
 }
 }

@@ -16,13 +16,13 @@
 
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#tracks">Tracks</a></li>
-        <li><a href="#prizes">Prizes</a></li>
-        <li><a href="#timeline">Timeline</a></li>
-        <li><a href="#sponsors">Sponsors</a></li>
-        <li><a href="#teams">Teams</a></li>
-        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#newAbout">About</a></li>
+        <li><a href="#newTracks">Tracks</a></li>
+        <li><a href="#newPrizes">Prizes</a></li>
+        <li><a href="#newTimeline">Timeline</a></li>
+        <li><a href="#newSponsors">Sponsors</a></li>
+        <li><a href="#newTeams">Teams</a></li>
+        <li><a href="#newFaq">FAQ</a></li>
         <li><a href="#footer">Contact Us</a></li>
       </ul>
     </div>
@@ -59,6 +59,9 @@
       <DevfolioComponent />
     </div>
   </div>
+  <div class="filler7" id="newAbout">
+    </div>
+    
 </template>
 
 <script>
@@ -88,6 +91,9 @@ export default {
 </script>
 
 <style>
+.filler7{
+  margin-bottom: 1%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -672,6 +678,9 @@ box-shadow: 585px 606px #FFF , 1098px 228px #FFF , 1930px 1578px #FFF , 1839px 7
   }
 }
 @media (max-width: 480px) {
+  .filler7{
+    margin-bottom: 2%;
+  }
   nav ul li {
     font-size: 18px;
   }

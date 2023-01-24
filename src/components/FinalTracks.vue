@@ -63,11 +63,16 @@
 </div>
     </div>
     </div>
-    
+    <div class="filler2" id="newPrizes">
+    </div>
+     
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+.filler2{
+        margin-bottom: 5%;
+    } 
 .transkew {
    -webkit-clip-path: polygon(0 0, 100% 3%, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 3%, 100% 96%, 0 100%);
@@ -204,6 +209,10 @@
   color: #2e2e2e;
 }
 
-
+@media (max-width:480px) {
+  .filler2{
+        margin-bottom: 14%;
+    } 
+} 
 
 </style>

@@ -35,10 +35,16 @@
         </div>
     </div>
     </div>
+    <div class="filler3" id="newTimeline">
+    </div>
+    
 </template>
     
 <style>
         @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:900');
+    .filler3{
+      margin-bottom: 0%;
+    }
     .wrapper-prizes{
         width : 75vw;
         margin : 0 auto;
