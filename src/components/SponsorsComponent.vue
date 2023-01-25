@@ -197,10 +197,6 @@ body {
 }
 
 @media (max-width: 900px) {
-  .filler5{
-        margin-bottom: 12%;
-    }
-
   .contain {
     padding-left: 8%;
   }
