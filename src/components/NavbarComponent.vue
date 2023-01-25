@@ -59,9 +59,7 @@
       <DevfolioComponent />
     </div>
   </div>
-  <div class="filler7" id="newAbout">
-    </div>
-    
+  <div class="filler7" id="newAbout"></div>
 </template>
 
 <script>
@@ -91,7 +89,7 @@ export default {
 </script>
 
 <style>
-.filler7{
+.filler7 {
   margin-bottom: 1%;
 }
 * {
@@ -180,11 +178,12 @@ ul li a:hover {
     top: 55px;
     right: -100%;
     height: 100%;
-    width: 40%;
+    width: 45%;
     display: block;
     text-align: center;
     transition: all 0.5s ease;
     z-index: 1000;
+    padding-left: 0rem;
   }
   #click:checked ~ ul {
     right: 0px;
@@ -678,7 +677,7 @@ box-shadow: 585px 606px #FFF , 1098px 228px #FFF , 1930px 1578px #FFF , 1839px 7
   }
 }
 @media (max-width: 480px) {
-  .filler7{
+  .filler7 {
     margin-bottom: 2%;
   }
   nav ul li {
