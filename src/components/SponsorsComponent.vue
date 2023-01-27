@@ -24,6 +24,9 @@
         class="logo"
         :src="require('../assets/Replit-light-background.png')"
     /></a>
+    <a href="https://campalin.com/" target="_blank"
+      ><img class="logo" :src="require('../assets/campalin-logo-2.png')"
+    /></a>
   </div>
 
   <!-- <div class="container-sponsors">
@@ -55,9 +58,7 @@
       ><img class="logo" :src="require('../assets/logo_taskade_black.png')"
     /></a>
   </div>
-  <div class="filler5" id="newTeams">
-    </div>
-    
+  <div class="filler5" id="newTeams"></div>
 </template>
 
 <script>
@@ -84,9 +85,9 @@ export default {
 </script>
 
 <style>
-.filler5{
-        margin-bottom: 7%;
-    }
+.filler5 {
+  margin-bottom: 7%;
+}
 .container3-platinum {
   width: 70vw;
   margin: 0 auto;
@@ -173,9 +174,9 @@ body {
   transform: translate(0, 0);
 }
 @media (max-width: 480px) {
-  .filler5{
-        margin-bottom: 30%;
-    }
+  .filler5 {
+    margin-bottom: 30%;
+  }
   .contain {
     padding-left: 8%;
   }

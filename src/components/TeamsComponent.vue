@@ -78,56 +78,56 @@
                 <img
                   src="../assets/Aditya.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Aditya"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/Ekeswar.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Ekeswar"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/Madhumitha.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Madhumitha"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/Onkar.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="onkar"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/Tejashree.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Tejashree"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/Ashwin.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Ashwin"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/Nitin.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Nithin"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/Shravan.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Shravan"
                 />
               </div>
 
@@ -135,14 +135,14 @@
                 <img
                   src="../assets/Smita.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Smita"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/Vikitha.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="Vikitha"
                 />
               </div>
             </div>
@@ -335,8 +335,6 @@ figure figcaption:after {
 figure p a {
 	color: #06afd8;
 } */
-
-
 
 @media (max-width: 480px) {
   figure {
