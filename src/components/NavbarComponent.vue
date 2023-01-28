@@ -205,6 +205,7 @@ ul li a:hover {
   position: relative;
   height: 100vh;
   width: 100vw;
+  margin-top: -55px;
   /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #080518 100%); */
   background-color: var(--bgBlue);
   overflow: hidden;
