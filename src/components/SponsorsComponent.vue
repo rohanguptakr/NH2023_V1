@@ -25,7 +25,7 @@
         :src="require('../assets/Replit-light-background.png')"
     /></a>
     <a href="https://campalin.com/" target="_blank"
-      ><img class="logo" :src="require('../assets/campalin-logo-2.png')"
+      ><img class="logo" :src="require('../assets/campalin-logo.png')"
     /></a>
   </div>
 
@@ -52,7 +52,9 @@
         "
     /></a>
     <a href="https://givemycertificate.com/" target="_blank"
-      ><img class="logo" :src="require('../assets/GMC LogoS.png')"
+      ><img
+        class="logo"
+        :src="require('../assets/give my certificate-logo.png')"
     /></a>
     <a href="https://www.taskade.com/" target="_blank"
       ><img class="logo" :src="require('../assets/logo_taskade_black.png')"
