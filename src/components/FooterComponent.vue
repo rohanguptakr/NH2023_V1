@@ -3,11 +3,14 @@
     <footer>
       <h1 class="contact">Contact Us</h1>
       <div class="logos">
-        <img
-          :src="require('../assets/nitte_nmit_logo.png')"
-          alt=""
-          class="nitte-logo"
-        />
+        <div class="nmitlogo">
+          <a href="https://www.nmit.ac.in/" target="_blank">
+            <img
+              :src="require('../assets/nitte_nmit_logo.png')"
+              alt=""
+              class="nitte-logo"
+          /></a>
+        </div>
         <img
           :src="require('../assets/NHCenterLogo.png')"
           alt=""
@@ -23,7 +26,7 @@
         ><a href="https://www.facebook.com/nmit.hacks.50" target="_blank"
           ><i class="fa-brands fa-facebook"></i></a
         ><a
-          href="https://www.linkedin.com/in/nmit-hacks-8082531bb/"
+          href="https://www.linkedin.com/company/nmit-hacks/posts/?feedView=all"
           target="_blank"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
@@ -66,11 +69,13 @@
 .logos {
   display: flex;
   justify-content: space-evenly;
+  margin-top: -86px;
 }
 
+.nmitlogo {
+  margin-top: 170px;
+}
 .nitte-logo {
-  margin-top: 15%;
-  height: 100%;
   width: auto;
 }
 
@@ -150,6 +155,10 @@
 @media (max-width: 900px) {
   .logos {
     display: flex;
+    margin-top: -140px;
+  }
+  .nmitlogo {
+    margin-top: 135px;
   }
   .nitte-logo {
     width: 175px;
@@ -161,7 +170,7 @@
   .hacks-logo {
     width: 175px;
     padding-left: 2rem;
-    margin-top: 8%;
+    margin-top: 45%;
     padding-right: 10px;
     margin-bottom: 5%;
   }
