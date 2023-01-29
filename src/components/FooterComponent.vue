@@ -33,6 +33,7 @@
       </div>
       <p class="code">
         <a href="https://devfolio.co/code-of-conduct" class="conduct"
+           target="_blank"
           >Code of Conduct</a
         >
       </p>
