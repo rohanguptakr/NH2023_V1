@@ -59,6 +59,13 @@
     <a href="https://www.taskade.com/" target="_blank"
       ><img class="logo" :src="require('../assets/logo_taskade_black.png')"
     /></a>
+    <a href="https://gen.xyz/" target="_blank"
+      ><img
+        class="logo"
+        :src="
+          require('../assets/xyz-logo-color.png')
+        "
+    /></a>
   </div>
   <div class="filler5" id="newTeams"></div>
 </template>
