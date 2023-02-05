@@ -32,8 +32,10 @@
         ></a>
       </div>
       <p class="code">
-        <a href="https://devfolio.co/code-of-conduct" class="conduct"
-           target="_blank"
+        <a
+          href="https://devfolio.co/code-of-conduct"
+          class="conduct"
+          target="_blank"
           >Code of Conduct</a
         >
       </p>
@@ -134,7 +136,7 @@
 }
 
 .footer-basic .end {
-  margin-top: 7%;
+  margin-top: 3%;
   text-align: center;
   font-size: 20px;
   color: #fff;
