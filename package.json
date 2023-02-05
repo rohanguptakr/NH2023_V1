@@ -13,7 +13,9 @@
     "bootstrap": "^5.2.2",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
+    "jquery": "^3.6.3",
     "locomotive-scroll": "^4.1.4",
+    "swiper": "^9.0.2",
     "vue": "^3.2.41",
     "vue-hooks": "^0.3.2"
   },

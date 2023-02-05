@@ -641,7 +641,7 @@ box-shadow: 585px 606px #FFF , 1098px 228px #FFF , 1930px 1578px #FFF , 1839px 7
 
 #title {
   position: absolute;
-  top: 50vh;
+  top: 47vh;
   left: 0;
   right: 0;
   color: #fff;
