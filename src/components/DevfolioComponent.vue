@@ -21,6 +21,7 @@
       data-button-theme="light"
       :style="{ height: `10px`, width: `312px`, padding: `2vh` }"
     ></div>
+    <p class="end-date">Registration ends on: 15th March,2023</p>
   </div>
 </template>
 
@@ -66,6 +67,13 @@ h3 {
   z-index: 1;
 }
 
+.end-date{
+  font-family: "Roboto", sans-serif;
+  z-index: 99;
+  position: relative;
+  bottom: 2vh;
+  top: 2vh;
+}
 .text-hacks {
   font-family: "Roboto", sans-serif;
   z-index: 99;
