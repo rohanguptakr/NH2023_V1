@@ -4,84 +4,121 @@
         <h1 class="container">Timeline</h1>
   </section>
     
-    <!-- <section class="timeline">
+    <section class="timeline">
       <ul>
-        <li>
+        <li v-if="Day==1">
           <div>
             <p class="day">Day 1</p><time>9:00 AM</time><p class="events">Reporting and Registration</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==1">
           <div>
             <time>11:00 AM</time><p class="events">Inaugration ceremony</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==1">
           <div>
             <time>11:40 AM</time><p class="events">Hack begins!!!</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==1">
           <div>
             <time>1:00 PM - 1:45PM</time><p class="events">Lunch</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==1">
           <div>
             <time>4:30 PM - 5:00 PM</time><p class="events">Snacks</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==1">
           <div>
             <time>7:00 PM - 8:00 PM</time><p class="events">Judging round 1</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==1">
           <div>
             <time>8:15 PM - 9:00 PM</time><p class="events">Dinner</p>
           </div>
-        </li>
-        <li>
+        </li >
+        <li v-if="Day==2">
           <div>
             <p class="day">Day 2</p><time>1:30 AM - 2:30 AM</time><p class="events">Midnight surprise and snacks</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==2">
           <div>
             <time>7:30 AM -8:30 AM</time><p class="events">Breakfast</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==2">
           <div>
             <time>11:00 AM - 12:00 PM</time><p class="events">Judging round 2</p>
           </div>
         </li>
-        <li>
+        <li v-if="Day==2">
           <div>
             <time>12:15 PM - 1:00 PM</time>Lunch
           </div>
         </li>
-        <li>
+        <li v-if="Day==2">
           <div>
             <time>4:00 PM - 6:00 PM</time><p class="events">Final judging round, closing ceremony and prize distribution</p>
           </div>
         </li>
       </ul>
-    </section> -->
-    <div class="coming-img">
+    </section>
+    <div class="btnTimeLineContainer" @click="changeDay">
+
+    <div class="btnTimeline" >
+     Day {{Day}}
+      </div>
+    </div>
+    <!-- <div class="coming-img">
       <img :src="require('../assets/TimelineTBA.png')" alt="To be announced"/>
       <p class="ann">To be announced</p>
-    </div>
+    </div> -->
   </div>
-  <div class="filler4" id="newSponsors">
-    </div>
-    
+ 
 </template>
 
-<style>
-.filler4{
-        margin-bottom: 7%;
+<script>
+export default{
+  data(){
+    return{
+      Day:1
     }
+  },
+  methods:{
+    changeDay(){
+      if(this.Day==1) this.Day = 2;
+      else this.Day = 1;
+    }
+  }
+}
+</script>
+
+
+<style>
+.btnTimeLineContainer{
+  background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+.btnTimeline{
+  border: 2px solid black;
+    color: black;
+    background-color: #ecf27c;
+    padding: 1rem 2rem;
+    border-radius: 8%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+
 .timeline-container{
   background-color : var(--bgBlue);
   margin-bottom : 5vh;
@@ -132,6 +169,7 @@ box-sizing: border-box;
 .timeline ul {
 background: #fff;
 padding: 50px 0;
+display: block;
 }
 
 .timeline ul li {
@@ -223,9 +261,6 @@ margin-bottom: 8px;
 }
 
 @media screen and (max-width: 600px) {
-  .filler4{
-        margin-bottom: 27%;
-    }
 .timeline ul li {
   margin-left: 20px;
   padding-top: 10px;
@@ -250,7 +285,7 @@ margin-bottom: 8px;
 }
 .ann{
   font-size : 1.3rem;
-  padding-bottom : 0vh;
+  padding-bottom : 5vh;
   padding-top : 5vh;
 }
 }
