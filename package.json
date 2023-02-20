@@ -13,6 +13,7 @@
     "bootstrap": "^5.2.2",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
+    "file-saver": "^2.0.5",
     "jquery": "^3.6.3",
     "locomotive-scroll": "^4.1.4",
     "swiper": "^9.0.2",

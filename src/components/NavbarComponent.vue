@@ -14,16 +14,16 @@
         <i class="fas fa-bars"></i>
       </label>
 
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#newAbout">About</a></li>
-        <li><a href="#newTracks">Tracks</a></li>
-        <li><a href="#newPrizes">Prizes</a></li>
-        <li><a href="#newTimeline">Timeline</a></li>
-        <li><a href="#newSponsors">Sponsors</a></li>
-        <li><a href="#newTeams">Teams</a></li>
-        <li><a href="#newFaq">FAQ</a></li>
-        <li><a href="#footer">Contact Us</a></li>
+      <ul class="ul">
+        <li class="li"><a href="#home">Home</a></li>
+        <li class="li"><a href="#newAbout">About</a></li>
+        <li class="li"><a href="#newTracks">Tracks</a></li>
+        <li class="li"><a href="#newPrizes">Prizes</a></li>
+        <li class="li"><a href="#newTimeline">Timeline</a></li>
+        <li class="li"><a href="#newSponsors">Sponsors</a></li>
+        <li class="li"><a href="#newTeams">Teams</a></li>
+        <li class="li"><a href="#newFaq">FAQ</a></li>
+        <li class="li"><a href="#footer">Contact Us</a></li>
       </ul>
     </div>
   </div>
@@ -124,15 +124,15 @@ export default {
   justify-content: space-between;
   padding: 0px 30px 0px 100px;
 }
-ul {
+.ul {
   display: flex;
   list-style: none;
   margin-bottom: 0rem;
 }
-ul li {
+.ul .li {
   margin: 0 5px;
 }
-ul li a {
+.ul .li a {
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -143,7 +143,7 @@ ul li a {
   border-radius: 5px;
   transition: all 0.5s ease;
 }
-ul li a:hover {
+.ul .li a:hover {
   background: #fff;
   color: black;
 }
@@ -172,7 +172,7 @@ ul li a:hover {
     content: "\f00d";
     font-size: 35px;
   }
-  ul {
+  .ul {
     position: fixed;
     background: #ecf27c;
     top: 55px;
@@ -185,17 +185,17 @@ ul li a:hover {
     z-index: 1000;
     padding-left: 0rem;
   }
-  #click:checked ~ ul {
+  #click:checked ~ .ul {
     right: 0px;
   }
-  ul li {
+  .ul .li {
     margin-top: 30px;
   }
-  ul li a {
+  .ul .li a {
     color: black;
     font-size: 20px;
   }
-  ul li a:hover {
+  .ul .li a:hover {
     background: none;
     color: blueviolet;
   }

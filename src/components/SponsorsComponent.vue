@@ -67,6 +67,19 @@
         "
     /></a>
   </div>
+  <div>
+    <div class="downLoadButton mx-auto text-center" >
+      <button type="button" class="btn btn-primary btn-outline-primary hover_button" :style="buttonStyle" >
+        <a href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH_Brochure'23.pdf?alt=media&token=a6b2a381-8b13-489f-93aa-1679714d9562" target="_blank" class="download-buttton" :style="linkStyle"><b>Download Brochure</b></a>
+      </button>
+    </div>
+
+    <div class="sponsorship">
+    <p class="sponsorship__text">For Custom Sponsorships, please contact 
+      <a class="sponsorship__link" href="mailto:hackathon@nmit.ac.in" target="_blank">hackathon@nmit.ac.in</a>
+    </p>
+  </div>
+  </div>
   <div class="filler5" id="newTeams"></div>
 </template>
 
@@ -74,7 +87,27 @@
 import $ from "jquery";
 
 export default {
+  data() {
+    return {
+      buttonStyle: {
+        padding: '10px 25px 10px 25px',
+        backgroundColor: 'black',
+        border: '5px solid #ecf27c',
+      },
+      linkStyle: {
+        color: '#ecf27c',
+        fontWeight: '900',
+        fontFamily: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif",
+        fontSize: '1.3rem',
+        textDecoration: 'none',
+      },
+    }
+  },
   mounted() {
+    if (window.innerWidth <= 600) {
+      this.buttonStyle.padding = '5px 15px 5px 15px',
+      this.linkStyle.fontSize= '0.7rem'
+    }
     $(document).on("scroll", function () {
       var pageTop = $(document).scrollTop();
       var pageBottom = pageTop + $(window).height();
@@ -96,6 +129,35 @@ export default {
 <style>
 .filler5 {
   margin-bottom: 7%;
+}
+.sponsorship__text {
+  font-size: 1.25rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  margin-top: 15px;
+  text-align: center;
+}
+
+.sponsorship__link {
+  font-size: 1.25rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .sponsorship__text {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .sponsorship__link {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+.hover_button:hover{
+  background-color:rgb(59, 60, 58) !important;
+  text-decoration: underline;
 }
 .container3-platinum {
   width: 70vw;
