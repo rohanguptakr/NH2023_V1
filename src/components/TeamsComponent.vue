@@ -148,6 +148,7 @@ img {
   }
   .swiper-button-next {
     top: 53%;
+    right: 0px;
   }
 }
 
