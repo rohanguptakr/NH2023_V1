@@ -43,14 +43,7 @@
         background-color: white;
      }
      @media (max-width: 480px) {
-        /* .p{
-        font-family: sans-serif;
-        text-align: center;
-        margin: 10%;
-        color:var(--bgBlue);
-        position: relative;
-        top : -80px;
-     } */
+
      .filler6{
         margin-bottom: 7%;
     }
