@@ -70,7 +70,7 @@
   <div>
     <div class="downLoadButton mx-auto text-center" >
       <button type="button" class="btn btn-primary btn-outline-primary hover_button" :style="buttonStyle" >
-        <a href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH_Brochure'23.pdf?alt=media&token=a6b2a381-8b13-489f-93aa-1679714d9562" target="_blank" class="download-buttton" :style="linkStyle"><b>Download Brochure</b></a>
+        <a href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH'23_CompanyBrochure.pdf?alt=media&token=d1d75601-d4bd-47b1-a0b1-e23f1ce8c000" target="_blank" class="download-buttton" :style="linkStyle"><b>Download Brochure</b></a>
       </button>
     </div>
 
