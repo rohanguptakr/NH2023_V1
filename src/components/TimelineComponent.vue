@@ -80,10 +80,10 @@
           </div>
         </li>
       </ul>
-    </section>
+    </section> 
     <div class="btnTimeLineContainer" @click="changeDay">
       <div class="btnTimeline">Day {{ Day }}</div>
-    </div>
+    </div> 
     <!-- <div class="coming-img">
       <img :src="require('../assets/TimelineTBA.png')" alt="To be announced"/>
       <p class="ann">To be announced</p>
