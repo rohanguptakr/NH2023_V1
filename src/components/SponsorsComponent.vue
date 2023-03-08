@@ -60,7 +60,11 @@
       ><img class="logo" :src="require('../assets/logo_taskade_black.png')"
     /></a>
     <a href="https://gen.xyz/" target="_blank"
-      ><img class="logo" :src="require('../assets/xyz-logo-color.png')"
+      ><img
+        class="logo"
+        :src="
+          require('../assets/xyz-logo-color.png')
+        "
     /></a>
     <a href="https://rosenfeldmedia.com/" target="_blank"
       ><img
@@ -71,33 +75,17 @@
     /></a>
   </div>
   <div>
-    <div class="downLoadButton mx-auto text-center">
-      <button
-        type="button"
-        class="btn btn-primary btn-outline-primary hover_button"
-        :style="buttonStyle"
-      >
-        <a
-          href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH'23_CompanyBrochure.pdf?alt=media&token=d1d75601-d4bd-47b1-a0b1-e23f1ce8c000"
-          target="_blank"
-          class="download-buttton"
-          :style="linkStyle"
-          ><b>Download Brochure</b></a
-        >
+    <div class="downLoadButton mx-auto text-center" >
+      <button type="button" class="btn btn-primary btn-outline-primary hover_button" :style="buttonStyle" >
+        <a href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH'23_CompanyBrochure.pdf?alt=media&token=d1d75601-d4bd-47b1-a0b1-e23f1ce8c000" target="_blank" class="download-buttton" :style="linkStyle"><b>Download Brochure</b></a>
       </button>
     </div>
 
     <div class="sponsorship">
-      <p class="sponsorship__text">
-        For Custom Sponsorships, please contact
-        <a
-          class="sponsorship__link"
-          href="mailto:hackathon@nmit.ac.in"
-          target="_blank"
-          >hackathon@nmit.ac.in</a
-        >
-      </p>
-    </div>
+    <p class="sponsorship__text">For Custom Sponsorships, please contact 
+      <a class="sponsorship__link" href="mailto:hackathon@nmit.ac.in" target="_blank">hackathon@nmit.ac.in</a>
+    </p>
+  </div>
   </div>
   <div class="filler5" id="newTeams"></div>
 </template>
@@ -109,24 +97,23 @@ export default {
   data() {
     return {
       buttonStyle: {
-        padding: "10px 25px 10px 25px",
-        backgroundColor: "black",
-        border: "5px solid #ecf27c",
+        padding: '10px 25px 10px 25px',
+        backgroundColor: 'black',
+        border: '5px solid #ecf27c',
       },
       linkStyle: {
-        color: "#ecf27c",
-        fontWeight: "900",
-        fontFamily:
-          "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif",
-        fontSize: "1.3rem",
-        textDecoration: "none",
+        color: '#ecf27c',
+        fontWeight: '900',
+        fontFamily: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif",
+        fontSize: '1.3rem',
+        textDecoration: 'none',
       },
-    };
+    }
   },
   mounted() {
     if (window.innerWidth <= 600) {
-      (this.buttonStyle.padding = "5px 15px 5px 15px"),
-        (this.linkStyle.fontSize = "0.7rem");
+      this.buttonStyle.padding = '5px 15px 5px 15px',
+      this.linkStyle.fontSize= '0.7rem'
     }
     $(document).on("scroll", function () {
       var pageTop = $(document).scrollTop();
@@ -152,14 +139,14 @@ export default {
 }
 .sponsorship__text {
   font-size: 1.25rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
   margin-top: 15px;
   text-align: center;
 }
 
 .sponsorship__link {
   font-size: 1.25rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
   text-align: center;
 }
 
@@ -169,14 +156,14 @@ export default {
     margin-top: 10px;
     text-align: center;
   }
-
+  
   .sponsorship__link {
     font-size: 1rem;
     text-align: center;
   }
 }
-.hover_button:hover {
-  background-color: rgb(59, 60, 58) !important;
+.hover_button:hover{
+  background-color:rgb(59, 60, 58) !important;
   text-decoration: underline;
 }
 .container3-platinum {
@@ -284,7 +271,7 @@ body {
     margin-right: 10vw;
   }
   .logo {
-    height: 6vh;
+    height: 8vh;
   }
 }
 

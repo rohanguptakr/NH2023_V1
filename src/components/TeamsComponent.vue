@@ -100,7 +100,7 @@ export default {
   background-size: cover;
   width: 300px;
   height: 300px;
-  filter: blur(3px);
+  filter: blur(1px);
   opacity: 0.6;
 }
 .swiper-slide-active {
