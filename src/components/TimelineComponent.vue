@@ -80,7 +80,7 @@
           </div>
         </li>
       </ul>
-    </section> 
+    </section>
     <div class="btnTimeLineContainer" @click="changeDay">
       <div class="btnTimeline">Day {{ Day }}</div>
     </div>  -->
@@ -114,7 +114,7 @@ export default {
   margin-bottom: 7%;
 }
 .btnTimeLineContainer {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,7 +181,7 @@ export default {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: #fff;
+  background: #000000;
   padding: 50px 0;
   display: block;
 }
@@ -193,7 +193,7 @@ export default {
   margin: 0 auto;
   padding-top: 0px;
   font-size: 0.6rem;
-  background: #080518;
+  background: #ffffff;
 }
 
 .timeline ul li::after {

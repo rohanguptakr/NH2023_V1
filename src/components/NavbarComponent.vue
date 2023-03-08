@@ -177,7 +177,7 @@ export default {
 
 .star-container {
   position: relative;
-  height: 100vh;
+  height: 125vh;
   width: 100vw;
   margin-top: -55px;
   /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #080518 100%); */
