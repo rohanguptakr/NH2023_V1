@@ -4,7 +4,7 @@
       <h1 class="container">Timeline</h1>
     </section>
 
-    <section class="timeline">
+    <!-- <section class="timeline">
       <ul>
         <li v-if="Day == 1">
           <div>
@@ -83,11 +83,11 @@
     </section> 
     <div class="btnTimeLineContainer" @click="changeDay">
       <div class="btnTimeline">Day {{ Day }}</div>
-    </div> 
-    <!-- <div class="coming-img">
+    </div>  -->
+    <div class="coming-img">
       <img :src="require('../assets/TimelineTBA.png')" alt="To be announced"/>
       <p class="ann">To be announced</p>
-    </div> -->
+    </div>
   </div>
   <div></div>
   <div class="filler4" id="newSponsors"></div>

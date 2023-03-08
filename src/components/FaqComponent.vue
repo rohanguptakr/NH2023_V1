@@ -43,7 +43,7 @@
     <h2 class="question">6. How can I get involved?
 </h2><span class="faq-t"></span>
     </div>
-    <p class="answer">Go ahead and visit the NMITHacks page and book your place. Have another question that didn't get answered here - send us an email
+    <p class="answer">Go ahead and visit the NMIT Hacks page and book your place. Have another question that didn't get answered here - send us an email
 on hackathon@nmit.ac.in
 </p>
   </div>

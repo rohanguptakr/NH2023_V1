@@ -44,7 +44,7 @@
           >Email us at: hackathon@nmit.ac.in</a
         >
       </p>
-      <p class="end">Made with ❤️ by Nmit-Hacks</p>
+      <p class="end">Made with ❤️ by NMIT Hacks</p>
     </footer>
   </div>
 </template>

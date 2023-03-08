@@ -66,6 +66,13 @@
           require('../assets/xyz-logo-color.png')
         "
     /></a>
+    <a href="https://rosenfeldmedia.com/" target="_blank"
+      ><img
+        class="logo"
+        :src="
+          require('../assets/rosenfeld.jpeg')
+        "
+    /></a>
   </div>
   <div>
     <div class="downLoadButton mx-auto text-center" >

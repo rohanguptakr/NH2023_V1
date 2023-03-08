@@ -2,7 +2,7 @@
   <div class="sticky">
     <div class="nav1">
       <div>
-        <img src="../assets/LogoFooter.svg" height="68px" width="240px" />
+        <img src="../assets/HoliNavbarLogo.svg" height="68px" width="240px" />
       </div>
       <input type="checkbox" id="click" />
       <label for="click" class="menu-btn">

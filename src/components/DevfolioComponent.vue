@@ -4,7 +4,7 @@
     <br />
     <div class="cont-text-hacks">
       <p class="text-hacks">
-        21st-22nd April, 2023 <br /><a
+        12th-14th May, 2023 <br /><a
           class="map"
           href="https://www.google.com/maps/place/Nitte+Meenakshi+Institute+of+Technology/@13.1284641,77.5851193,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae170d10bb559b:0x2bb3892a626cf9ba!8m2!3d13.1284641!4d77.587308?shorturl=1"
         >
@@ -21,7 +21,7 @@
       data-button-theme="light"
       :style="{ height: `10px`, width: `312px`, padding: `2vh` }"
     ></div>
-    <p class="end-date">Registration ends on: 15th March,2023</p>
+    <p class="end-date">Registration ends on: 2nd April,2023</p>
   </div>
 </template>
 
