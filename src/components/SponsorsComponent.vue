@@ -4,10 +4,14 @@
   </section>
   <div class="container3-platinum">
     <a href="https://devfolio.co/" target="_blank"
-      ><img class="logo" :src="require('../assets/Devfolio_Logo-Colored.png')"
+      ><img
+        class="logo"
+        :src="require('../assets/Devfolio_Logo-Colored (1).svg')"
     /></a>
     <a href="https://polygon.technology/" target="_blank"
-      ><img class="logo" :src="require('../assets/Polygon_Logo-Colored.png')"
+      ><img
+        class="logo"
+        :src="require('../assets/Polygon_Logo-Colored (1).svg')"
     /></a>
   </div>
   <div class="container3-gold">
