@@ -67,7 +67,7 @@ h3 {
   z-index: 1;
 }
 
-.end-date{
+.end-date {
   font-family: "Roboto", sans-serif;
   z-index: 99;
   position: relative;
