@@ -4,7 +4,7 @@
     <br />
     <div class="cont-text-hacks">
       <p class="text-hacks">
-        12th-14th May, 2023 <br /><a
+        12th - 14th May, 2023 <br /><a
           class="map"
           href="https://www.google.com/maps/place/Nitte+Meenakshi+Institute+of+Technology/@13.1284641,77.5851193,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae170d10bb559b:0x2bb3892a626cf9ba!8m2!3d13.1284641!4d77.587308?shorturl=1"
         >
@@ -13,7 +13,8 @@
           </p>
         </a>
       </p>
-      <div
+    </div>
+    <div
       class="apply-button devfolio"
       ref="button-devfolio"
       data-hackathon-slug="nmithacks"
@@ -41,105 +42,11 @@ export default {
       };
     }, []);
   },
-  data() {
-    return {
-      deadline: new Date("2023-03-15"),
-      countdownInterval: null,
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-    };
-  },
-  mounted() {
-    this.startCountdown();
-    window.addEventListener("resize", this.handleResize);
-  },
-  unmounted() {
-    window.removeEventListener("resize", this.handleResize);
-  },
-  methods: {
-    startCountdown() {
-      this.countdownInterval = setInterval(() => {
-        const now = new Date().getTime();
-        const distance = this.deadline.getTime() - now;
-
-        this.days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        this.hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        this.minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        this.seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        if (distance < 0) {
-          clearInterval(this.countdownInterval);
-          this.days = 0;
-          this.hours = 0;
-          this.minutes = 0;
-          this.seconds = 0;
-        }
-      }, 1000);
-    },
-    handleResize() {
-      const screenWidth = window.innerWidth;
-
-      if (screenWidth < 768) {
-        this.$el.querySelector(".countdown").classList.add("responsive");
-      } else {
-        this.$el.querySelector(".countdown").classList.remove("responsive");
-      }
-    },
-  },
 };
 </script>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-.countdown-wrapper {
-  text-align: center;
-}
-
-.countdown {
-  display: flex;
-  justify-content: center;
-}
-
-.countdown-item {
-  margin: 0 10px;
-  text-align: center;
-}
-
-.countdown-item span {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.countdown-item p {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-}
-
-@media (max-width: 767px) {
-  .countdown.responsive {
-    display: flex;
-    justify-content: center;
-  }
-
-  .countdown-item {
-  margin: 0 10px;
-  text-align: center;
-  }
-  .countdown-item span {
-    font-size: 0.7rem;
-    font-weight: bold;
-  }
-
-  .countdown-item p {
-    font-size: 0.34rem;
-    text-transform: uppercase;
-  }
-  #timerHeading{
-    font-size:12px;
-  }
-}
 h3 {
   position: relative;
   top: 29vh;

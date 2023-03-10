@@ -66,11 +66,11 @@
           require('../assets/xyz-logo-color.png')
         "
     /></a>
-    <a href="https://rosenfeldmedia.com/" target="_blank"
+    <a href="https://hoverrobotix.com/" target="_blank"
       ><img
         class="logo"
         :src="
-          require('../assets/rosenfeld.jpeg')
+          require('../assets/HoverRobotix Logo png.png')
         "
     /></a>
   </div>
