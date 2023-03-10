@@ -2,7 +2,7 @@
   <div class="sticky">
     <div class="nav1">
       <div>
-        <img src="../assets/HoliNavbarLogo.svg" height="68px" width="240px" />
+        <img src="../assets/LogoFooter.svg" height="68px" width="240px" />
       </div>
       <input type="checkbox" id="click" />
       <label for="click" class="menu-btn">
@@ -177,7 +177,7 @@ export default {
 
 .star-container {
   position: relative;
-  height: 125vh;
+  height: 100vh;
   width: 100vw;
   margin-top: -55px;
   /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #080518 100%); */
