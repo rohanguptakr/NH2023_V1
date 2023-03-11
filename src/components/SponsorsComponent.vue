@@ -31,6 +31,9 @@
     <a href="https://campalin.com/" target="_blank"
       ><img class="logo" :src="require('../assets/campalin-logo.png')"
     /></a>
+    <a href="https://www.idp.com/india/" target="_blank"
+      ><img class="logo" :src="require('../assets/idp-logo.svg')"
+    /></a>
   </div>
 
   <!-- <div class="container-sponsors">
