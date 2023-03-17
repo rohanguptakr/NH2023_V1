@@ -2,6 +2,7 @@
   <section class="sponhead">
     <h1 class="contain" id="sponsors">Sponsors</h1>
   </section>
+  <h1 class="platinum">Platinum sponsors</h1>
   <div class="container3-platinum">
     <a href="https://devfolio.co/" target="_blank"
       ><img
@@ -11,14 +12,15 @@
     <a href="https://polygon.technology/" target="_blank"
       ><img
         class="logo"
-        :src="require('../assets/Polygon_Logo-Colored (1).svg')"
+        :src="require('../assets/Polygon_Logo-Colored(1).svg')"
     /></a>
   </div>
+  <h1 class="gold">Gold sponsors</h1>
   <div class="container3-gold">
     <a href="https://filecoin.io/" target="_blank"
       ><img
         class="logo"
-        :src="require('../assets/Filecoin Coloured White Text.png')"
+        :src="require('../assets/Filecoin-Coloured-White-Text.png')"
     /></a>
     <a href="https://solana.com/" target="_blank"
       ><img class="logo" :src="require('../assets/Solana-Colored.png')"
@@ -55,7 +57,7 @@
       ><img
         class="logo wolfram"
         :src="
-          require('../assets/Hackathon Logo Wolfram 2022 resizable Vector-1.png')
+          require('../assets/Hackathon-Logo-Wolfram-2022-resizable-Vector-1.png')
         "
     /></a>
     <a href="https://givemycertificate.com/" target="_blank"
@@ -70,11 +72,7 @@
       ><img class="logo" :src="require('../assets/xyz-logo-color.png')"
     /></a>
     <a href="https://hoverrobotix.com/" target="_blank"
-      ><img
-        class="logo"
-        :src="
-          require('../assets/HoverRobotix Logo png.png')
-        "
+      ><img class="logo" :src="require('../assets/HoverRobotix Logo png.png')"
     /></a>
   </div>
   <div>
@@ -85,7 +83,7 @@
         :style="buttonStyle"
       >
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH'23_CompanyBrochure.pdf?alt=media&token=f43a12f7-7fbd-4461-ad47-e2501a1b12ea"
+          href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH'23_CompanyBrochure.pdf?alt=media&token=d1d75601-d4bd-47b1-a0b1-e23f1ce8c000"
           target="_blank"
           class="download-buttton"
           :style="linkStyle"
@@ -106,6 +104,7 @@
       </p>
     </div>
   </div>
+
   <div class="filler5" id="newTeams"></div>
 </template>
 
@@ -154,6 +153,61 @@ export default {
 </script>
 
 <style>
+.card {
+  padding: 10px;
+  margin-left: 50px;
+  box-shadow: 0px 0px 0px 2px;
+  color: gray;
+  border-radius: 25px;
+}
+.card-wraper {
+  display: flex;
+
+  margin: 45px 195px;
+  /* 
+  margin: 0 auto;
+  align-items: center;
+  
+  font-family: sans-serif;
+  background-color: #fff; */
+}
+.platinum {
+  text-align: center;
+  font-weight: 700;
+  color: skyblue;
+}
+.gold {
+  text-align: center;
+  font-weight: 700;
+  color: goldenrod;
+}
+/* .container3-platinum a {
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0, 1.02, 1, 1.48);
+}
+.container3-gold a {
+  transition-duration: 0.8s;
+
+  transition-timing-function: cubic-bezier(0.5, 0, 0.9, 1);
+}
+.platform-sponsors a {
+  transition-duration: 0.8s;
+} */
+.container3-platinum a:hover {
+  box-shadow: 0px 0px 30px 2px;
+  color: skyblue;
+  border-radius: 25px;
+}
+.container3-gold a:hover {
+  box-shadow: 0px 0px 30px 2px;
+  color: goldenrod;
+  border-radius: 25px;
+}
+.platform-sponsors a:hover {
+  box-shadow: 0px 0px 30px 2px;
+  color: gray;
+  border-radius: 25px;
+}
 .filler5 {
   margin-bottom: 7%;
 }
@@ -285,13 +339,28 @@ body {
     } */
   .container3-platinum {
     margin-right: 20vw;
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
   .container3-gold {
     margin-right: 10vw;
   }
   .logo {
     height: 6vh;
+  }
+  .container3-platinum a:hover {
+    box-shadow: none;
+    color: none;
+    border-radius: none;
+  }
+  .container3-gold a:hover {
+    box-shadow: none;
+    color: none;
+    border-radius: none;
+  }
+  .platform-sponsors a:hover {
+    box-shadow: none;
+    color: none;
+    border-radius: none;
   }
 }
 
