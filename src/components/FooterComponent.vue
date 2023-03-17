@@ -31,6 +31,9 @@
           ><i class="fa-brands fa-linkedin"></i
         ></a>
       </div>
+      <div class="code visitors-total">Visitors : 
+        <p class="code visitors counter">{{ count }}</p>
+      </div>
       <p class="code">
         <a
           href="https://devfolio.co/code-of-conduct"
@@ -48,6 +51,35 @@
     </footer>
   </div>
 </template>
+
+<script>
+
+import axios from "axios";
+
+/* eslint-disable */
+export default {
+  data() {
+    return {
+      count : 1,
+    }
+  },
+  methods: {
+    async getCount() {
+      try {
+        const res = await axios.get("https://api.countapi.xyz/update/nmitHacks/nmithacks?amount=1");
+        this.count = res.data.value;
+      }
+      catch(err){
+        console.log(err);
+      }
+    }
+  },
+  mounted() {
+    this.getCount();
+  }
+}
+
+</script>
 
 <style>
 .footer-basic {
@@ -75,6 +107,14 @@
   margin-top: -86px;
 }
 
+.visitors{
+  color : white;
+  font-weight: bold;
+  display:inline;
+}
+.visitors-total{
+  margin-left : 0vw;
+}
 .nmitlogo {
   margin-top: 170px;
 }
