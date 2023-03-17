@@ -31,9 +31,6 @@
           ><i class="fa-brands fa-linkedin"></i
         ></a>
       </div>
-      <div class="code visitors-total">Visitors : 
-        <p class="code visitors counter">{{ count }}</p>
-      </div>
       <p class="code">
         <a
           href="https://devfolio.co/code-of-conduct"
@@ -47,6 +44,9 @@
           >Email us at: hackathon@nmit.ac.in</a
         >
       </p>
+      <div class="code visitors-total">Visitors : 
+        <p class="code visitors counter">{{ count }}</p>
+      </div>
       <p class="end">Made with ❤️ by NMIT Hacks</p>
     </footer>
   </div>
@@ -66,7 +66,7 @@ export default {
   methods: {
     async getCount() {
       try {
-        const res = await axios.get("https://api.countapi.xyz/update/nmitHacks/nmithacks?amount=1");
+        const res = await axios.get("https://api.countapi.xyz/update/nmithacksAshwin/nmitHacksAshwin/?amount=1");
         this.count = res.data.value;
       }
       catch(err){
@@ -74,6 +74,7 @@ export default {
       }
     }
   },
+
   mounted() {
     this.getCount();
   }
