@@ -83,7 +83,7 @@
         :style="buttonStyle"
       >
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH'23_CompanyBrochure.pdf?alt=media&token=d1d75601-d4bd-47b1-a0b1-e23f1ce8c000"
+          href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/NH'23_CompanyBrochure.pdf?alt=media&token=f43a12f7-7fbd-4461-ad47-e2501a1b12ea"
           target="_blank"
           class="download-buttton"
           :style="linkStyle"

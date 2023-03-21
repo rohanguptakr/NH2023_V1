@@ -1,32 +1,6 @@
 <template>
   <h1 class="prize">Prizes</h1>
   <div class="prize-container" id="prizes">
-
-    <div class="abc wrapper-prizes second-place">
-        <div class="card-prizes" onclick="this.classList.toggle('expanded')">
-          <img :src="require('../assets/second.png')" />
-          <div class="text2">
-            <div class="text-content-prizes">
-              <h1 class="title">₹ 20,000</h1>
-            </div>
-          </div>
-          <svg
-            class="chevron"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 35"
-            width="30"
-          >
-            <path
-              d="M5 30L50 5l45 25"
-              fill="none"
-              stroke="var(--bgYellow)"
-              stroke-width="5"
-            />
-          </svg>
-        </div>
-      </div>
-
-
     <div class="wrapper-prizes first-place">
       <div class="card-prizes" onclick="this.classList.toggle('expanded')">
         <img :src="require('../assets/first.png')" />
@@ -51,7 +25,31 @@
       </div>
     </div>
 
-      <div class="def wrapper-prizes third-place">
+    <div class="wrapper-prizes second-place">
+      <div class="abc">
+        <div class="card-prizes" onclick="this.classList.toggle('expanded')">
+          <img :src="require('../assets/second.png')" />
+          <div class="text2">
+            <div class="text-content-prizes">
+              <h1 class="title">₹ 20,000</h1>
+            </div>
+          </div>
+          <svg
+            class="chevron"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 35"
+            width="30"
+          >
+            <path
+              d="M5 30L50 5l45 25"
+              fill="none"
+              stroke="var(--bgYellow)"
+              stroke-width="5"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="def">
         <div class="card-prizes" onclick="this.classList.toggle('expanded')">
           <img :src="require('../assets/third.png')" />
           <div class="text2">
@@ -74,10 +72,7 @@
           </svg>
         </div>
       </div>
-  </div>
-
-
-  <!-- <div></div>
+    </div>
     <h1 class="prize">Other prizes</h1>
     <div class="resize">
       <div>
@@ -128,7 +123,8 @@
           </svg>
         </div>
       </div>
-    </div> -->
+    </div>
+  </div>
   <h1 class="prize">Sponsor prizes</h1>
   <div class="card-wraper">
     <div class="card" style="width: 20rem">
@@ -141,7 +137,7 @@
         <p class="card-text">
           Polygon is a protocol and a framework for building and connecting
           Ethereum-compatible blockchain networks.
-          <ul class="card-text-inner"> 
+          <ul class="card-text-inner">
             <li>Rs. 10,000 for the best project built on Ethereum</li>
           <li>Rs. 15,000 for the best project built on Ethereum +
           Polygon</li>
@@ -165,7 +161,7 @@
           Solana is the fastest blockchain in the world and the fastest-growing
           ecosystem in crypto, with thousands of projects spanning DeFi, NFTs,
           Web3 and more.
-          <ul class="card-text-inner"> 
+          <ul class="card-text-inner">
             <li>$100 for the best beginner project just starting out on Solana
          </li>
          <li> $250 for the best-detailed project, demonstrating higher-order code</li>
@@ -207,7 +203,7 @@
         />
       </div>
       <div class="card-body">
-        <p class="card-text">
+      <p class="card-text">
           The company Protocol Labs develops open-source protocols, tools, and services that aim to improve the internet.
           Two of their most well-known products are IPFS and Filecoin.
           <ul class="card-text-inner">
@@ -215,60 +211,23 @@
             <li>Filecoin is an open-source cloud storage marketplace, protocol, and cryptocurrency.</li>
             <li>Rs. 20,000 for best use of IPFS and/or Filecoin</li>
           </ul>
-        
-        </p>
+          </p>
       </div>
     </div>
   </div>
-  <!-- <div class="card-wraper"> -->
-
-    <!-- <div class="card" style="width: 23rem">
-      <img
-        class="card-img-top"
-        src="../assets/Hackathon-Logo-Wolfram-2022-resizable-Vector-1.png"
-        alt="Card image cap"
-      />
-      <div class="card-body">
-        <p class="card-text">SOME CONTENT</p>
-      </div>
-    </div>
-    <div class="card" style="width: 23rem">
-      <img
-        class="card-img-top"
-        src="../assets/xyz-logo-color.png"
-        alt="Card image cap"
-      />
-      <div class="card-body">
-        <p class="card-text">SOME CONTENT</p>
-      </div>
-    </div> -->
-  <!-- </div> -->
+ 
+  
 
   <div class="filler3" id="newTimeline"></div>
 </template>
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:900");
-.prize-container{
-  display : flex;
-  justify-content: space-around;
-  width : 40vw;
-  min-height : 45vh;
-  margin : 0 auto;
-}
-
-.first-place{
-  align-self : flex-start;
-}
-.second-place , .third-place{
-  align-self : flex-end;
-}
-
 .filler3 {
   margin-bottom: 0%;
 }
 .card-img-top {
-  aspect-ratio: 8;
+  aspect-ratio:8;
 }
 .goodies {
   width: 158px;
@@ -293,15 +252,16 @@
   color: black;
   border-radius: 25px;
   max-width: 70vw;
-  max-height : 50vh;
+  max-height : 70vh;
 }
 .card-text{
-  font-size : 0.5rem;
-  font-weight: bold;
+  font-size : 0.8rem;
+  font-weight:bold;
 }
 .card-text-inner{
-  font-size : 0.7rem;
+  font-size : 0.8rem;
 }
+
 .card-wraper {
   display: flex;
   flex-grow: 1;
@@ -309,13 +269,8 @@
   gap : 20px;
   margin: 45px 150px;
   justify-content: center;
-  /* 
-  margin: 0 auto;
-  align-items: center;
-  
-  font-family: sans-serif;
-  background-color: #fff; */
 }
+
 .track {
   color: white;
   font-weight: 600;
@@ -357,73 +312,59 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+
+
+
 #second {
   margin-top: 50vh;
 }
-@media (max-width : 600px)
-{
-  .prize-container{
-    display : flex;
-    width : 100vw;
-    flex-wrap : wrap;
+@media (max-width: 900px) {
+  .abc{
+    margin-right: 456px;
   }
-  .first-place{
-    order : 1;
+  .def{
+    margin-top: -270px;
+    margin-left: 450px
   }
-  .second-place{
-    order : 2;
-  }
-  .third-place{
-    order: 3;
-  }
+  
 }
 @media (max-width: 500px) {
   .wrapper-prizes {
     display: block;
   }
-  .prize-container{
-    display : flex;
-    width : 100vw;
-    flex-wrap : wrap;
-  }
-  .first-place{
-    order : 1;
-  }
-  .second-place{
-    align-self :flex-start;
-    margin-left : 0px;
-    order : 2;
-  }
-  .third-place{
-    order : 3;
-  }
   .card-prizes {
     max-height: 350px;
     max-width: 220px;
   }
-  .prize {
+   .prize {
     padding-left: 8%;
     margin-bottom: 8vh;
   }
+   .card {
+    margin-top: 20px;
+    max-width: 77vw;
+    max-height:70vh;
+}
   .abc {
     margin-right: -2px;
     margin-top: 0px;
   }
   .def {
     margin-top: 0px;
+    margin-left: 7px;
   }
   .resize {
     display: block;
     margin: auto 0px;
   }
-  .card-wraper {
+    .card-wraper {
     display: block;
-    margin: auto -33px;
-  }
+    margin: auto;
+}
+
   .card {
     margin-top: 20px;
-    max-width: 90vw;
-    max-height : 60vh;
+    
   }
 }
 
@@ -437,8 +378,11 @@
   }
   .prize {
     padding-left: 8%;
-    margin-bottom: 8vh;
-  }
+    margin-bottom:8vh;
+}
+
+    
+
 }
 .card-prizes {
   background: var(--bgBlue);
@@ -601,5 +545,4 @@ img {
   padding-top: 2vh;
   color: var(--bgYellow);
 }
-
 </style>
