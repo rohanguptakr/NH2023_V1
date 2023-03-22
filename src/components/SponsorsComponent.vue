@@ -36,6 +36,9 @@
     <a href="https://www.idp.com/india/" target="_blank"
       ><img class="logo" :src="require('../assets/idp-logo.svg')"
     /></a>
+    <a href="https://swiftride.in/" target="_blank"
+      ><img class="logo" :src="require('../assets/SwiftRide-Black.svg')"
+    /></a>
   </div>
 
   <!-- <div class="container-sponsors">
@@ -73,6 +76,12 @@
     /></a>
     <a href="https://hoverrobotix.com/" target="_blank"
       ><img class="logo" :src="require('../assets/HoverRobotix Logo png.png')"
+    /></a>
+    <a href="https://thementorx.com/" target="_blank"
+      ><img class="logo" :src="require('../assets/MENTORx logo black with white tag line - Round.png')"
+    /></a>
+    <a href="https://hoverrobotix.com/" target="_blank"
+      ><img class="logo" :src="require('../assets/RevUp Logo png clean.png')"
     /></a>
   </div>
   <div>
