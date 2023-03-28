@@ -175,6 +175,7 @@ export default {
   }
 }
 
+
 .star-container {
   position: relative;
   height: 100vh;
@@ -588,7 +589,7 @@ nav.show {
 
 #title {
   position: absolute;
-  top: 47vh;
+  top: 40vh;
   left: 0;
   right: 0;
   color: #fff;
@@ -648,6 +649,9 @@ nav.show {
   .dark-blue.slide {
     width: 50%;
     opacity: 1;
+  }
+  .star-container {
+    height : 115vh;
   }
 }
 @media (max-width: 900px) {

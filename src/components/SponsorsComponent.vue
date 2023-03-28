@@ -33,11 +33,11 @@
     <a href="https://campalin.com/" target="_blank"
       ><img class="logo" :src="require('../assets/campalin-logo.png')"
     /></a>
-    <a href="https://www.idp.com/india/" target="_blank"
-      ><img class="logo" :src="require('../assets/idp-logo.svg')"
-    /></a>
     <a href="https://swiftride.in/" target="_blank"
       ><img class="logo" :src="require('../assets/SwiftRide-Black.svg')"
+    /></a>
+    <a href="https://www.idp.com/india/" target="_blank"
+      ><img class="logo" :src="require('../assets/idp-logo.svg')"
     /></a>
   </div>
 
@@ -80,7 +80,7 @@
     <a href="https://thementorx.com/" target="_blank"
       ><img class="logo" :src="require('../assets/MENTORx logo black with white tag line - Round.png')"
     /></a>
-    <a href="https://hoverrobotix.com/" target="_blank"
+    <a href="https://nancyjuneja.com/rev-up-life-skill/" target="_blank"
       ><img class="logo" :src="require('../assets/RevUp Logo png clean.png')"
     /></a>
   </div>
