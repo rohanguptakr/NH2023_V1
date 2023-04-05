@@ -651,7 +651,7 @@ nav.show {
     opacity: 1;
   }
   .star-container {
-    height : 115vh;
+    height : 100vh;
   }
 }
 @media (max-width: 900px) {

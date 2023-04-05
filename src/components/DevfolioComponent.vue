@@ -4,7 +4,7 @@
     <br />
     <div class="cont-text-hacks">
       <p class="text-hacks">
-        12th - 14th May, 2023 <br /><a
+        5th to 7th May, 2023 <br /><a
           class="map"
           href="https://www.google.com/maps/place/Nitte+Meenakshi+Institute+of+Technology/@13.1284641,77.5851193,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae170d10bb559b:0x2bb3892a626cf9ba!8m2!3d13.1284641!4d77.587308?shorturl=1"
         >
@@ -66,7 +66,7 @@ export default {
   },
   data() {
     return {
-      deadline: new Date("2023-04-02"),
+      deadline: new Date("April 11, 2023 00:00:00"),
       countdownInterval: null,
       days: 0,
       hours: 0,
