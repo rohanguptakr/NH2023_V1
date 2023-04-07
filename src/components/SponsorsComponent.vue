@@ -14,6 +14,11 @@
         class="logo"
         :src="require('../assets/Polygon_Logo-Colored(1).svg')"
     /></a>
+    <a href="http://quine.sh/" target="_blank"
+      ><img
+        class="logo quine"
+        :src="require('../assets/Quine-Black.svg')"
+    /></a>
   </div>
   <h1 class="gold">Gold sponsors</h1>
   <div class="container3-gold">
@@ -38,6 +43,9 @@
     /></a>
     <a href="https://www.idp.com/india/" target="_blank"
       ><img class="gold-logo" :src="require('../assets/idp-logo.svg')"
+    /></a>
+    <a href="http://jumbochain.org/" target="_blank"
+      ><img class="gold-logo" :src="require('../assets/JumboChain-Black.svg')"
     /></a>
   </div>
 
@@ -366,6 +374,17 @@ body {
   transition: all 0.5s;
   height: 7vh;
   margin : 3vh;
+}
+.quine{
+  opacity: 1;
+  transform: translate(0, 2vh);
+  transition: all 0.5s;
+  height: 8vh;
+
+  /* width: 500px; */
+  /* Use the width as 500px when removing the placeholder  */
+  /* margin: auto; */
+  margin: 3vh;
 }
 .gold-logo.visible {
   opacity: 1;
