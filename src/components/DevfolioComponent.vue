@@ -21,7 +21,10 @@
       :style="{ height: `10px`, width: `312px`, padding: `2vh` }"
       >
       </div>
-      <div class="countdown-wrapper" style="margin-top: 35px;">
+      <div class="results-div">
+          Results out soon!!!
+      </div>
+      <!-- <div class="countdown-wrapper" style="margin-top: 35px;">
         <p id="timerHeading">Registration ends in:</p>
         <div class="countdown">
          <div class="countdown-item">
@@ -41,7 +44,7 @@
             <p>Seconds</p>
           </div>
           </div>
-        </div>
+        </div> -->
       </div>    
     <!-- <p class="end-date">Registration ends on: 15th March,2023</p> -->
   </div>
@@ -128,6 +131,10 @@ export default {
 .countdown-item {
   margin: 0 10px;
   text-align: center;
+}
+
+.results-div{
+  margin-top : 5vh;
 }
 
 .countdown-item span {

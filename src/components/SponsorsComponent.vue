@@ -4,6 +4,11 @@
   </section>
   <h1 class="platinum">Platinum sponsors</h1>
   <div class="container3-platinum">
+    <a href="http://quine.sh/" target="_blank"
+      ><img
+        class="logo quine"
+        :src="require('../assets/Quine logo.svg')"
+    /></a>
     <a href="https://devfolio.co/" target="_blank"
       ><img
         class="logo"
@@ -13,11 +18,6 @@
       ><img
         class="logo"
         :src="require('../assets/Polygon_Logo-Colored(1).svg')"
-    /></a>
-    <a href="http://quine.sh/" target="_blank"
-      ><img
-        class="logo quine"
-        :src="require('../assets/Quine-Black.svg')"
     /></a>
   </div>
   <h1 class="gold">Gold sponsors</h1>
@@ -45,7 +45,7 @@
       ><img class="gold-logo" :src="require('../assets/idp-logo.svg')"
     /></a>
     <a href="http://jumbochain.org/" target="_blank"
-      ><img class="gold-logo" :src="require('../assets/JumboChain-Black.svg')"
+      ><img class="jumbo" :src="require('../assets/JumboChain-Black.svg')"
     /></a>
   </div>
 
@@ -367,6 +367,13 @@ body {
   /* Use the width as 500px when removing the placeholder  */
   /* margin: auto; */
   margin: 3vh;
+}
+.jumbo{
+  opacity: 1;
+  transform: translate(0, 2vh);
+  transition: all 0.5s;
+  height: 9vh;
+  margin : 3vh;
 }
 .gold-logo{
   opacity: 1;
