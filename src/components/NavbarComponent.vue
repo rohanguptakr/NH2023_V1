@@ -592,7 +592,6 @@ nav.show {
   top: 40vh;
   left: 0;
   right: 0;
-  color: #fff;
   text-align: center;
   font-family: "lato", sans-serif;
   font-weight: 300;
@@ -602,7 +601,8 @@ nav.show {
   padding-left: 0px;
 }
 #title span {
-  background: -webkit-linear-gradient(white, #38495a);
+  /* background: -webkit-linear-gradient(white, #38495a); */
+  background : white;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

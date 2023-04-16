@@ -21,9 +21,6 @@
       :style="{ height: `10px`, width: `312px`, padding: `2vh` }"
       >
       </div>
-      <div class="results-div">
-          Results out soon!!!
-      </div>
       <!-- <div class="countdown-wrapper" style="margin-top: 35px;">
         <p id="timerHeading">Registration ends in:</p>
         <div class="countdown">
@@ -45,14 +42,22 @@
           </div>
           </div>
         </div> -->
-      </div>    
+        <v-col cols="auto">
+        <v-btn color="#2192FF" v-wave :ripple="true" elevation="24" rounded="lg" size="x-large" target="_blank"  href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/Results.pdf?alt=media&token=540f9b51-3c4f-405e-8c40-3466d3272d0b">
+          <span class="result-button">Results</span>
+        </v-btn>
+      </v-col>  
+      </div>  
     <!-- <p class="end-date">Registration ends on: 15th March,2023</p> -->
+    <!-- -->
   </div>
 </template>
 
 <script>
 // import { withHooks, useState, useEffect } from "vue-hooks";
 import { watchEffect } from "vue";
+
+
 export default {
   name: "DevfolioComponent",
   setup() {
@@ -113,6 +118,9 @@ export default {
         this.$el.querySelector(".countdown").classList.remove("responsive");
       }
     },
+    getFile(file) {
+    window.open("../assets/" + file, "_blank");
+    }
   },
 };
 </script>
@@ -126,6 +134,10 @@ export default {
 .countdown {
   display: flex;
   justify-content: center;
+}
+
+.result-button{
+  font-family : "Roboto", sans-serif;
 }
 
 .countdown-item {
