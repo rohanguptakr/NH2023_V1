@@ -67,7 +67,7 @@ body {
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 body::-webkit-scrollbar-track {
-  background-color: transparent;
+  background-color: var(--bgBlue);
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;

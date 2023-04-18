@@ -8,6 +8,7 @@
           class="map"
           href="https://www.google.com/maps/place/Nitte+Meenakshi+Institute+of+Technology/@13.1284641,77.5851193,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae170d10bb559b:0x2bb3892a626cf9ba!8m2!3d13.1284641!4d77.587308?shorturl=1"
         >
+        <br />
           <p class="text-hacks">
             Nitte Meenakshi Institute of Technology, Bengaluru
           </p>
@@ -42,14 +43,15 @@
           </div>
           </div>
         </div> -->
+        <br />
         <v-col cols="auto">
-        <v-btn color="#2192FF" v-wave :ripple="true" elevation="24" rounded="lg" size="x-large" target="_blank"  href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/Results.pdf?alt=media&token=540f9b51-3c4f-405e-8c40-3466d3272d0b">
+        <v-btn color="#2192FF" v-wave :ripple="true" elevation="24" rounded="lg" size="x-large" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/Results.pdf?alt=media&token=4c324ac6-f261-46dc-96e9-f84578f136cc">
           <span class="result-button">Results</span>
         </v-btn>
       </v-col>  
       </div>  
     <!-- <p class="end-date">Registration ends on: 15th March,2023</p> -->
-    <!-- -->
+    <!--href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/Results.pdf?alt=media&token=540f9b51-3c4f-405e-8c40-3466d3272d0b" -->
   </div>
 </template>
 
@@ -118,8 +120,17 @@ export default {
         this.$el.querySelector(".countdown").classList.remove("responsive");
       }
     },
-    getFile(file) {
-    window.open("../assets/" + file, "_blank");
+    onStartedDownload(id) {
+        console.log(`Started downloading: ${id}`);
+    },
+
+    onFailed(error) {
+        console.log(`Download failed: ${error}`);
+    },
+
+    getResults() {
+ 
+      
     }
   },
 };
