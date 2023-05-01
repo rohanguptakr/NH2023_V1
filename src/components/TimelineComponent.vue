@@ -7,9 +7,9 @@
 
     <div>
       <ul class="ul1">
-        <li class="li1" @click="changeDay1"><button>DAY-1</button></li>
-        <li class="li1" @click="changeDay2"><button>DAY-2</button></li>
-        <li class="li1" @click="changeDay3"><button>DAY-3</button></li>
+        <li class="li1 day1" ref="day1" @click="changeDay1"><button>DAY-1</button></li>
+        <li class="li1 day2" ref="day2" @click="changeDay2"><button>DAY-2</button></li>
+        <li class="li1 day3" ref="day3" @click="changeDay3"><button>DAY-3</button></li>
       </ul>
     </div>
 
@@ -45,7 +45,7 @@
             </div>
             <span class="ps-sp-bot"></span>
           </li>
-          <li>
+          <!-- <li>
             <div class="img-handler-top">
               <h5>Partner Session</h5>
               <lottie-player
@@ -61,9 +61,9 @@
               <h6>3:00 PM</h6>
             </div>
             <span class="ps-sp-top"></span>
-          </li>
+          </li> -->
           <li>
-            <div class="img-handler-bot">
+            <div class="img-handler-top">
               <h5>Snacks</h5>
               <lottie-player
                 src="https://assets5.lottiefiles.com/private_files/lf30_1jta1v1j.json"
@@ -74,13 +74,13 @@
                 autoplay
               ></lottie-player>
             </div>
-            <div class="ps-top">
+            <div class="ps-bot">
               <h6>4:00 PM-4:30 PM</h6>
             </div>
-            <span class="ps-sp-bot"></span>
+            <span class="ps-sp-top"></span>
           </li>
           <li>
-            <div class="img-handler-top">
+            <div class="img-handler-bot">
               <h5>Hack begins</h5>
               <lottie-player
                 src="https://assets10.lottiefiles.com/packages/lf20_PgWzCB9W9i.json"
@@ -92,13 +92,13 @@
                 autoplay
               ></lottie-player>
             </div>
-            <div class="ps-bot">
+            <div class="ps-top">
               <h6>4:30 PM</h6>
             </div>
-            <span class="ps-sp-top"></span>
+            <span class="ps-sp-bot"></span>
           </li>
           <li>
-            <div class="img-handler-bot">
+            <div class="img-handler-top">
               <h5>Mentoring Session 1</h5>
               <lord-icon
                 src="https://cdn.lordicon.com/kjkiqtxg.json"
@@ -108,13 +108,13 @@
               >
               </lord-icon>
             </div>
-            <div class="ps-top">
+            <div class="ps-bot">
               <h6>7:00 PM-9:00 PM</h6>
             </div>
-            <span class="ps-sp-bot"></span>
+            <span class="ps-sp-top"></span>
           </li>
           <li>
-            <div class="img-handler-top">
+            <div class="img-handler-bot">
               <h5>Dinner</h5>
               <lottie-player
                 src="https://assets3.lottiefiles.com/packages/lf20_ChM6vU.json"
@@ -126,10 +126,10 @@
                 autoplay
               ></lottie-player>
             </div>
-            <div class="ps-bot">
+            <div class="ps-top">
               <h6>8:00 PM</h6>
             </div>
-            <span class="ps-sp-top"></span>
+            <span class="ps-sp-bot"></span>
           </li>
         </ol>
       </div>
@@ -179,23 +179,6 @@
           </li>
           <li style="width: 12%">
             <div class="img-handler-bot">
-              <h5>Partner session (Quine)</h5>
-              <lottie-player
-                src="https://assets8.lottiefiles.com/packages/lf20_1pjemuh2.json"
-                background="transparent"
-                speed="1"
-                style="width: 100px; height: 85px"
-                hover
-                loop
-              ></lottie-player>
-            </div>
-            <div class="ps-top">
-              <h6>12:30 PM - 1:00 PM</h6>
-            </div>
-            <span class="ps-sp-bot"></span>
-          </li>
-          <li style="width: 12%">
-            <div class="img-handler-top">
               <h5>Lunch</h5>
               <lottie-player
                 src="https://assets8.lottiefiles.com/private_files/lf30_fqBsFC.json"
@@ -207,8 +190,25 @@
                 autoplay
               ></lottie-player>
             </div>
+            <div class="ps-top">
+              <h6>1:30 PM</h6>
+            </div>
+            <span class="ps-sp-bot"></span>
+          </li>
+          <li style="width: 12%">
+            <div class="img-handler-top">
+              <h5>Partner session (Quine)</h5>
+              <lottie-player
+                src="https://assets8.lottiefiles.com/packages/lf20_1pjemuh2.json"
+                background="transparent"
+                speed="1"
+                style="width: 100px; height: 85px"
+                hover
+                loop
+              ></lottie-player>
+            </div>
             <div class="ps-bot">
-              <h6>1:00 PM</h6>
+              <h6>3:00 PM - 4:00 PM</h6>
             </div>
             <span class="ps-sp-top"></span>
           </li>
@@ -407,7 +407,7 @@
             />
           </div>
         </div>
-        <div class="timeline-item">
+        <!-- <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-date">3:00 PM</div>
           <div class="timeline-content">
@@ -421,7 +421,7 @@
               loop
             ></lottie-player>
           </div>
-        </div>
+        </div> -->
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-date">4:00 PM - 4:30 PM</div>
@@ -525,22 +525,7 @@
         </div>
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-date">12:30 PM - 1:00 PM</div>
-          <div class="timeline-content">
-            <h4>Partner session (Quine)</h4>
-            <lottie-player
-              src="https://assets8.lottiefiles.com/packages/lf20_1pjemuh2.json"
-              background="transparent"
-              speed="1"
-              style="width: 150px; height: 150px"
-              hover
-              loop
-            ></lottie-player>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">1:00 PM</div>
+          <div class="timeline-date">1:30 PM</div>
           <div class="timeline-content">
             <h4>Lunch</h4>
             <lottie-player
@@ -551,6 +536,21 @@
               hover
               loop
               autoplay
+            ></lottie-player>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">3:00 PM - 4:00 PM</div>
+          <div class="timeline-content">
+            <h4>Partner session (Quine)</h4>
+            <lottie-player
+              src="https://assets8.lottiefiles.com/packages/lf20_1pjemuh2.json"
+              background="transparent"
+              speed="1"
+              style="width: 150px; height: 150px"
+              hover
+              loop
             ></lottie-player>
           </div>
         </div>
@@ -727,6 +727,10 @@ export default {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+}
+.ul1 .li1 button:hover {
+  background: #dae157;
+  color: var(--bgBlue);
 }
 .inaug {
   max-height: 100px;
@@ -927,10 +931,7 @@ h6 {
   transition: all 0.5s ease;
   border: none;
 }
-.ul1 .li1 button:hover {
-  background: #dae157;
-  color: var(--bgBlue);
-}
+
 .timeline-button {
   padding: 10px;
   background: var(--bgYellow);

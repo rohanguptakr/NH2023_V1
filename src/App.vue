@@ -42,11 +42,6 @@ export default {
 </script>
 
 <style>
-body{
-  overflow-x: hidden;
-  overflow-y: overlay;
-  
-} 
 @media (max-width: 500px) {
   body {
   overflow-x: hidden;
@@ -67,7 +62,7 @@ body {
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 body::-webkit-scrollbar-track {
-  background-color: var(--bgBlue);
+  background-color: var(--bgBlue)
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;
