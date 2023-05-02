@@ -22,8 +22,14 @@
       :style="{ height: `10px`, width: `312px`, padding: `2vh` }"
       >
       </div>
-      <!-- <div class="countdown-wrapper" style="margin-top: 35px;">
-        <p id="timerHeading">Registration ends in:</p>
+        <br />
+        <!-- <v-col cols="auto">
+        <v-btn color="#2192FF" v-wave :ripple="true" elevation="24" rounded="lg" size="x-large" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/Results.pdf?alt=media&token=4c324ac6-f261-46dc-96e9-f84578f136cc">
+          <span class="result-button">Results</span>
+        </v-btn>
+      </v-col>   -->
+      <div class="countdown-wrapper" style="margin-top: 35px;">
+        <p id="timerHeading">Hackathon Starts In:</p>
         <div class="countdown">
          <div class="countdown-item">
             <span>{{ days }}</span>
@@ -42,13 +48,7 @@
             <p>Seconds</p>
           </div>
           </div>
-        </div> -->
-        <br />
-        <v-col cols="auto">
-        <v-btn color="#2192FF" v-wave :ripple="true" elevation="24" rounded="lg" size="x-large" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/Results.pdf?alt=media&token=4c324ac6-f261-46dc-96e9-f84578f136cc">
-          <span class="result-button">Results</span>
-        </v-btn>
-      </v-col>  
+        </div>
       </div>  
     <!-- <p class="end-date">Registration ends on: 15th March,2023</p> -->
     <!--href="https://firebasestorage.googleapis.com/v0/b/nmit-hacks-f2830.appspot.com/o/Results.pdf?alt=media&token=540f9b51-3c4f-405e-8c40-3466d3272d0b" -->
@@ -76,7 +76,7 @@ export default {
   },
   data() {
     return {
-      deadline: new Date("April 11, 2023 00:00:00"),
+      deadline: new Date("May 5, 2023 13:30:00"),
       countdownInterval: null,
       days: 0,
       hours: 0,
