@@ -59,10 +59,10 @@ body::-webkit-scrollbar {
 }
 body {
   scrollbar-width: thin;
-  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  /* scrollbar-color: var(--thumbBG) var(--scrollbarBG); */
 }
 body::-webkit-scrollbar-track {
-  background-color: var(--bgBlue)
+  background-color: var(--bgBlue);
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;
